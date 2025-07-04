@@ -13,10 +13,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('asset/main/css/main.css') }}">
-    <link rel="stylesheet" href="{{ asset('asset/freecomma/jquery-1.11.1.min.js') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('asset/freecomma/jquery-1.11.1.min.js') }}">
     <link rel="stylesheet" href="{{ asset('asset/freecomma/jquery-linedtextarea.js') }}">
     <link rel="stylesheet" href="{{ asset('asset/freecomma/maincomma.css') }}">
-    <link rel="stylesheet" href="{{ asset('asset/freecomma/yeti.bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('asset/freecomma/yeti.bootstrap.min.css') }}"> --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <meta name="google-site-verification" content="wxTaC41LYLX1K2JfaN-oBa0HFWQOVIw8TwhbvA884CI" />
     <!-- Google tag (gtag.js) -->
