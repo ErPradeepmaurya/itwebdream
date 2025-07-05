@@ -8,7 +8,7 @@
         style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('{{ asset('asset/main/image/banner-img.jpg') }}');">
         <div class="container">
             <h1 class="display-3 fw-bold mb-4">We provide innovative software solutions</h1>
-            <p class="lead mb-5">The growth of your business depends on cutting-edge Digital Software experiences</p>
+            <p class="lead mb-5">The growth of your business depends on cutting-edge Software experiences</p>
             <a href="#contact" class="btn btn-primary btn-lg px-4 me-2">Get Started</a>
             <a href="#services" class="btn btn-outline-light btn-lg px-4">Our Services</a>
         </div>
