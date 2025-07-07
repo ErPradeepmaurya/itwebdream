@@ -5,6 +5,7 @@
     <title>@yield('title', 'Software Development and Freelance Services Provider')</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="{{ asset('asset/main/image/favicon1.png') }}">
     <meta name="keywords"
         content="Service provider of collegiate software solutions, university-level software, Enterprise Resource Planning development, electronic commerce framework, property management software, and independent contractor services">
     <meta name="description"
@@ -13,10 +14,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('asset/main/css/main.css') }}">
-    {{-- <link rel="stylesheet" href="{{ asset('asset/freecomma/jquery-1.11.1.min.js') }}">
-    <link rel="stylesheet" href="{{ asset('asset/freecomma/jquery-linedtextarea.js') }}">
     <link rel="stylesheet" href="{{ asset('asset/freecomma/maincomma.css') }}">
-    <link rel="stylesheet" href="{{ asset('asset/freecomma/yeti.bootstrap.min.css') }}"> --}}
+
+    <!-- CodeMirror CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/mode/javascript/javascript.min.js"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <meta name="google-site-verification" content="wxTaC41LYLX1K2JfaN-oBa0HFWQOVIw8TwhbvA884CI" />
     <!-- Google tag (gtag.js) -->
@@ -31,6 +35,7 @@
 
         gtag('config', 'G-8QQQYTRBQT');
     </script>
+
 </head>
 
 <body>

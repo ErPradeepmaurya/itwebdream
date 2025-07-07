@@ -20,6 +20,8 @@
     </div>
 </footer>
 <script src="{{ asset('asset/main/js/main.js') }}"></script>
+<script src="{{ asset('asset/freecomma/commamain.js') }}"></script>
+
 </body>
 
 </html>
