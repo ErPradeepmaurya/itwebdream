@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
-@section('title', "India's top software service provider")
+@section('title', 'Custom Web & Software Development')
+
 
 @section('content')
     <!-- Hero Section with Software Development Image -->
