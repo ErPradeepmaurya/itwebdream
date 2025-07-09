@@ -16,7 +16,8 @@
                         <i class="fas fa-envelope fa-2x text-primary me-3"></i>
                         <div>
                             <h5 class="mb-1">Email</h5>
-                            <p class="mb-0 text-muted">pusmaurya4@gmail.com</p>
+                            <p class="mb-0 text-muted"><a href="mainto:pusmaurya4@gmail.com">pusmaurya4@gmail.com</a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -29,7 +30,7 @@
                         <i class="fas fa-phone fa-2x text-primary me-3"></i>
                         <div>
                             <h5 class="mb-1">Phone</h5>
-                            <p class="mb-0 text-muted">+91 8707579029</p>
+                            <p class="mb-0 text-muted"><a href="tel:8707579029">+91 8707579029</a></p>
                         </div>
                     </div>
                 </div>
@@ -42,7 +43,7 @@
                         <i class="fas fa-map-marker-alt fa-2x text-primary me-3"></i>
                         <div>
                             <h5 class="mb-1">Address</h5>
-                            <p class="mb-0 text-muted">Jankipuram Sector - H Lucknow 226021</p>
+                            <p class="mb-0 text-muted">India,<br> Lucknow Sahara Road Jankipuram 226021</p>
                         </div>
                     </div>
                 </div>

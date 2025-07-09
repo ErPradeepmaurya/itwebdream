@@ -8,8 +8,9 @@
     <section class="hero-section"
         style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('{{ asset('asset/main/image/banner-img.jpg') }}');">
         <div class="container">
-            <h1 class="display-3 fw-bold mb-4">We provide innovative software solutions</h1>
-            <p class="lead mb-5">The growth of your business depends on cutting-edge Software experiences</p>
+            <h1 class="display-4 fw-bold mb-4">Innovative web and software solutions, built for you</h1>
+            <p class="lead mb-5">Our innovative, tailored web and software solutions streamline operations, enhance user
+                experiences, and drive business growth.</p>
             <a href="#contact" class="btn btn-primary btn-lg px-4 me-2">Get Started</a>
             <a href="#services" class="btn btn-outline-light btn-lg px-4">Our Services</a>
         </div>
@@ -20,9 +21,10 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12 text-center mt-3">
-                    <p>Elevate your business with exceptional software development services from a team of skilled
+                    <p class="lead text-muted">Elevate your business with exceptional software development services from a
+                        team of skilled
                         professionals who can adapt to modern technology and drive growth. Collaborate with Indian
-                        software development companies for a competitive edge. Their expertise in flawless software
+                        software development companies for a competitive edge.<br> Their expertise in flawless software
                         development will enhance your business revenue.<br> We provide customizable software solutions for
                         various needs, including design, development, testing, legacy application migration, product
                         development, and more.
@@ -261,14 +263,14 @@
                 </div>
                 <div class="col-md-6">
                     <div class="p-4 border rounded bg-white">
-                        <img src="{{ asset('asset/main/image/Software_utsourcing.jpg') }}" alt="Software_utsourcing"
+                        <img src="{{ asset('asset/main/image/software_utsourcing.jpg') }}" alt="Software outsourcing"
                             class="rounded-2">
                     </div>
                 </div>
 
                 <div class="col-md-6">
                     <div class="p-4 border rounded bg-white h-100">
-                        <img src="{{ asset('asset/main/image/Software_development.jpg') }}" alt="Software_development"
+                        <img src="{{ asset('asset/main/image/Software_development.jpg') }}" alt="Software development"
                             class="rounded-2 img-fluid">
                     </div>
                 </div>
@@ -297,5 +299,5 @@
                 </div>
             </div>
         </div>
-    </section>    
+    </section>
 @endsection
