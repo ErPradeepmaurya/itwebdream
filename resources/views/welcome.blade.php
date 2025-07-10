@@ -5,7 +5,8 @@
 
 @section('content')
     <!-- Hero Section with Software Development Image -->
-    <section class="hero-section">
+    <section class="hero-section"
+        style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('{{ asset('asset/main/image/banner-img.jpg') }}');">
         <div class="container">
             <h1 class="display-4 fw-bold mb-4">Innovative web and software solutions, built for you</h1>
             <p class="lead mb-5">Our innovative, tailored web and software solutions streamline operations, enhance user
