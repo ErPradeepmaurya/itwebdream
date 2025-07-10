@@ -16,8 +16,9 @@
                         <i class="fas fa-envelope fa-2x text-primary me-3"></i>
                         <div>
                             <h5 class="mb-1">Email</h5>
-                            <p class="mb-0 text-muted"><a href="mainto:pusmaurya4@gmail.com">pusmaurya4@gmail.com</a>
-                            </p>
+                            {{-- <p class="mb-0 text-muted"><a href="mainto:pusmaurya4@gmail.com">pusmaurya4@gmail.com</a>
+                            </p> --}}
+                            <p class="mb-0 text-muted" id="email"></p>
                         </div>
                     </div>
                 </div>
@@ -72,6 +73,13 @@
         </div>
     </div>
 </footer>
+<script>
+    const user = "pusmaurya4";
+    const domain = "gmail.com";
+    const email = user + "@" + domain;
+    document.getElementById("email").innerHTML = `<a href="mailto:${email}">${email}</a>`;
+</script>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <script src="{{ asset('asset/main/js/main.js') }}"></script>
 <script src="{{ asset('asset/freecomma/commamain.js') }}"></script>

@@ -5,13 +5,17 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+
 .hero-section {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url('/asset/main/image/banner-img.jpg');
     background-size: cover;
     background-position: center;
     color: white;
     padding: 150px 0;
     text-align: center;
 }
+
 .service-card {
     transition: transform 0.3s;
     height: 100%;
