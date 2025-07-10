@@ -19,4 +19,12 @@ class MainController extends Controller
     {
         return view('privacy-policy');
     }
+    public function faq()
+    {
+        return view('faq');
+    }
+    public function aboutus()
+    {
+        return view('aboutus');
+    }
 }

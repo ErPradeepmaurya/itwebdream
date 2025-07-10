@@ -8,12 +8,18 @@
              <span class="navbar-toggler-icon"></span>
          </button>
          <div class="collapse navbar-collapse" id="navbarNav">
-             <ul class="navbar-nav ms-auto">
+             <ul class="navbar-nav ms-auto text-uppercase">
+                 <li class="nav-item">
+                     <a class="nav-link text-white fw-bold" href="{{ route('aboutus') }}">about us</a>
+                 </li>
                  <li class="nav-item">
                      <a class="nav-link text-white fw-bold" href="#services">Services</a>
                  </li>
                  <li class="nav-item">
                      <a class="nav-link text-white fw-bold" href="#technologies">Technologies</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link text-white fw-bold" href="{{ route('faq') }}">Faq</a>
                  </li>
                  <li class="nav-item">
                      <a class="nav-link text-white fw-bold" href="#contact">Contact</a>

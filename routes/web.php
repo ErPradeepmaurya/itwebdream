@@ -8,6 +8,8 @@ use App\Http\Controllers\Frontend\FreeCommaController;
 Route::get('/', [MainController::class, 'index'])->name('welcome');
 Route::get('terms-conditions', [MainController::class, 'termsconditions'])->name('terms-conditions');
 Route::get('privacy-policy', [MainController::class, 'privacypolicy'])->name('privacy-policy');
+Route::get('faq', [MainController::class, 'faq'])->name('faq');
+Route::get('about-us', [MainController::class, 'aboutus'])->name('aboutus');
 
 Route::get('free-comma-separator-tool', [FreeCommaController::class, 'FreeCommaController'])->name('FreeComma.freecommatool');
 
