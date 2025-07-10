@@ -11,4 +11,12 @@ class MainController extends Controller
     {
         return view('welcome');
     }
+    public function termsconditions()
+    {
+        return view('terms-conditions');
+    }
+    public function privacypolicy()
+    {
+        return view('privacy-policy');
+    }
 }

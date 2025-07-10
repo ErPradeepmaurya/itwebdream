@@ -1,8 +1,8 @@
  <!-- Navigation -->
  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
      <div class="container">
-         <a class="navbar-brand text-white fw-bold" href="#"><img
-                 src="{{ asset('asset/main/image/itwebdream-logo2.png') }}" alt="" srcset=""
+         <a class="navbar-brand text-white fw-bold" href="{{ route('welcome') }}"><img
+                 src="{{ asset('asset/main/image/itwebdream-logo2.png') }}" alt="logo" srcset=""
                  width="250px"></a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
              <span class="navbar-toggler-icon"></span>

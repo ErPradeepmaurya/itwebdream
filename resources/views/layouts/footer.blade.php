@@ -64,9 +64,9 @@
                 </p>
             </div>
             <div class="col-md-6 text-center text-md-end">
-                <p class="text-white mb-0"><a href="terms-conditions.php" class="text-white mb-0">Terms & Conditions</a>
-                    |
-                    <a href="privacy-policy.php" class="text-white mb-0">Privacy Policy</a>
+                <p class="text-white mb-0"><a href="{{ route('terms-conditions') }}" class="text-white mb-0">Terms &
+                        Conditions</a> |
+                    <a href="{{ route('privacy-policy') }}" class="text-white mb-0">Privacy Policy</a>
                 </p>
             </div>
         </div>
