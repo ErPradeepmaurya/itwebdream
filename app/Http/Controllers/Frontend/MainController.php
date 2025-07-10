@@ -27,4 +27,10 @@ class MainController extends Controller
     {
         return view('aboutus');
     }
+
+    public function sitemap()
+    {
+        $content = view('sitemap')->render();
+        return response($content, 200)->header('Content-Type', 'application/xml');
+    }
 }
