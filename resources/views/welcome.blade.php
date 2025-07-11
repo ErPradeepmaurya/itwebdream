@@ -8,7 +8,7 @@
     <section class="hero-section"
         style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('{{ asset('asset/main/image/banner-img.jpg') }}');">
         <div class="container">
-            <h1 class="display-4 fw-bold mb-4">Innovative web and software solutions, built for you</h1>
+            <h1 class="display-5 fw-bold mb-4">Innovative web and software solutions, built for you</h1>
             <p class="lead mb-5">Our innovative, tailored web and software solutions streamline operations, enhance user
                 experiences, and drive business growth.</p>
             <a href="#contact" class="btn btn-primary btn-lg px-4 me-2">Get Started</a>
@@ -61,6 +61,9 @@
                                 <li><i class="fas fa-check text-primary me-2"></i> User-Centric Approach</li>
                                 <li><i class="fas fa-check text-primary me-2"></i> Scalable Architecture</li>
                             </ul>
+                            <a href="{{ route('web-development') }}"
+                                class="bg-success rounded-2 btn text-light text-center btn-sm p-1 px-3">View
+                                More</a>
                         </div>
                     </div>
                 </div>
@@ -107,87 +110,87 @@
     </section>
 
     <!-- Technologies Section -->
-    {{-- <section id="technologies"> --}}
-    <div class="container" id="technologies">
-        <div class="text-center">
-            <h2 class="display-5 fw-bold">Our Technology Stack</h2>
-            <p class="lead text-muted">We work with cutting-edge technologies to deliver robust solutions</p>
+    <section id="technologies">
+        <div class="container" id="technologies">
+            <div class="text-center">
+                <h2 class="display-5 fw-bold">Our Technology Stack</h2>
+                <p class="lead text-muted">We work with cutting-edge technologies to deliver robust solutions</p>
+            </div>
+
+            <div class="row g-4 text-center">
+                <!-- Full Stack -->
+                <div class="col-md-3 col-6">
+                    <div class="p-4 border rounded-3 h-100">
+                        <i class="fas fa-layer-group tech-icon"></i>
+                        <h5>Full Stack</h5>
+                        <p class="text-muted">End-to-end development from frontend to backend and database</p>
+                    </div>
+                </div>
+
+                <!-- MERN Stack -->
+                <div class="col-md-3 col-6">
+                    <div class="p-4 border rounded-3 h-100">
+                        <i class="fab fa-react tech-icon"></i>
+                        <h5>MERN Stack</h5>
+                        <p class="text-muted">MongoDB, Express.js, React, Node.js for modern web apps</p>
+                    </div>
+                </div>
+
+                <!-- Database -->
+                <div class="col-md-3 col-6">
+                    <div class="p-4 border rounded-3 h-100">
+                        <i class="fas fa-database tech-icon"></i>
+                        <h5>Database</h5>
+                        <p class="text-muted">SQL & NoSQL solutions: MySQL, PostgreSQL, MongoDB, Firebase</p>
+                    </div>
+                </div>
+
+                <!-- Graphic Design -->
+                <div class="col-md-3 col-6">
+                    <div class="p-4 border rounded-3 h-100">
+                        <i class="fas fa-paint-brush tech-icon"></i>
+                        <h5>UI/UX Design</h5>
+                        <p class="text-muted">Beautiful, intuitive interfaces with Figma, Adobe XD, and more</p>
+                    </div>
+                </div>
+
+                <!-- SEO -->
+                <div class="col-md-3 col-6">
+                    <div class="p-4 border rounded-3 h-100">
+                        <i class="fas fa-search-dollar tech-icon"></i>
+                        <h5>SEO</h5>
+                        <p class="text-muted">Search Engine Optimization to boost your online presence</p>
+                    </div>
+                </div>
+
+                <!-- Cloud -->
+                <div class="col-md-3 col-6">
+                    <div class="p-4 border rounded-3 h-100">
+                        <i class="fas fa-cloud tech-icon"></i>
+                        <h5>Cloud Services</h5>
+                        <p class="text-muted">AWS, Azure, Google Cloud for scalable infrastructure</p>
+                    </div>
+                </div>
+
+                <!-- DevOps -->
+                <div class="col-md-3 col-6">
+                    <div class="p-4 border rounded-3 h-100">
+                        <i class="fas fa-server tech-icon"></i>
+                        <h5>DevOps</h5>
+                        <p class="text-muted">CI/CD pipelines, Docker, Kubernetes for seamless deployment</p>
+                    </div>
+                </div>
+
+                <!-- AI/ML -->
+                <div class="col-md-3 col-6">
+                    <div class="p-4 border rounded-3 h-100">
+                        <i class="fas fa-robot tech-icon"></i>
+                        <h5>AI/ML</h5>
+                        <p class="text-muted">Artificial Intelligence and Machine Learning solutions</p>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="row g-4 text-center">
-            <!-- Full Stack -->
-            <div class="col-md-3 col-6">
-                <div class="p-4 border rounded-3 h-100">
-                    <i class="fas fa-layer-group tech-icon"></i>
-                    <h5>Full Stack</h5>
-                    <p class="text-muted">End-to-end development from frontend to backend and database</p>
-                </div>
-            </div>
-
-            <!-- MERN Stack -->
-            <div class="col-md-3 col-6">
-                <div class="p-4 border rounded-3 h-100">
-                    <i class="fab fa-react tech-icon"></i>
-                    <h5>MERN Stack</h5>
-                    <p class="text-muted">MongoDB, Express.js, React, Node.js for modern web apps</p>
-                </div>
-            </div>
-
-            <!-- Database -->
-            <div class="col-md-3 col-6">
-                <div class="p-4 border rounded-3 h-100">
-                    <i class="fas fa-database tech-icon"></i>
-                    <h5>Database</h5>
-                    <p class="text-muted">SQL & NoSQL solutions: MySQL, PostgreSQL, MongoDB, Firebase</p>
-                </div>
-            </div>
-
-            <!-- Graphic Design -->
-            <div class="col-md-3 col-6">
-                <div class="p-4 border rounded-3 h-100">
-                    <i class="fas fa-paint-brush tech-icon"></i>
-                    <h5>UI/UX Design</h5>
-                    <p class="text-muted">Beautiful, intuitive interfaces with Figma, Adobe XD, and more</p>
-                </div>
-            </div>
-
-            <!-- SEO -->
-            <div class="col-md-3 col-6">
-                <div class="p-4 border rounded-3 h-100">
-                    <i class="fas fa-search-dollar tech-icon"></i>
-                    <h5>SEO</h5>
-                    <p class="text-muted">Search Engine Optimization to boost your online presence</p>
-                </div>
-            </div>
-
-            <!-- Cloud -->
-            <div class="col-md-3 col-6">
-                <div class="p-4 border rounded-3 h-100">
-                    <i class="fas fa-cloud tech-icon"></i>
-                    <h5>Cloud Services</h5>
-                    <p class="text-muted">AWS, Azure, Google Cloud for scalable infrastructure</p>
-                </div>
-            </div>
-
-            <!-- DevOps -->
-            <div class="col-md-3 col-6">
-                <div class="p-4 border rounded-3 h-100">
-                    <i class="fas fa-server tech-icon"></i>
-                    <h5>DevOps</h5>
-                    <p class="text-muted">CI/CD pipelines, Docker, Kubernetes for seamless deployment</p>
-                </div>
-            </div>
-
-            <!-- AI/ML -->
-            <div class="col-md-3 col-6">
-                <div class="p-4 border rounded-3 h-100">
-                    <i class="fas fa-robot tech-icon"></i>
-                    <h5>AI/ML</h5>
-                    <p class="text-muted">Artificial Intelligence and Machine Learning solutions</p>
-                </div>
-            </div>
-        </div>
-    </div>
     </section>
 
     <!-- Software Development experience -->
@@ -263,14 +266,14 @@
                 </div>
                 <div class="col-md-6">
                     <div class="p-4 border rounded bg-white">
-                        <img src="{{ asset('asset/main/image/software_utsourcing.jpg') }}" alt="Software outsourcing"
+                        <img src="{{ asset('asset/main/image/Software_utsourcing.jpg') }}" alt="Software outsourcing"
                             class="rounded-2">
                     </div>
                 </div>
 
                 <div class="col-md-6">
                     <div class="p-4 border rounded bg-white h-100">
-                        <img src="{{ asset('asset/main/image/Software_development.jpg') }}" alt="Software development"
+                        <img src="{{ asset('asset/main/image/software_development.jpg') }}" alt="Software development"
                             class="rounded-2 img-fluid">
                     </div>
                 </div>

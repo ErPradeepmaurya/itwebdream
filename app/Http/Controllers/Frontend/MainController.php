@@ -27,6 +27,10 @@ class MainController extends Controller
     {
         return view('aboutus');
     }
+    public function webdevelopment()
+    {
+        return view('web-development');
+    }
 
     public function sitemap()
     {
