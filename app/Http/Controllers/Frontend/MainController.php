@@ -11,6 +11,10 @@ class MainController extends Controller
     {
         return view('welcome');
     }
+    public function index2()
+    {
+        return view('welcome2');
+    }
     public function termsconditions()
     {
         return view('terms-conditions');

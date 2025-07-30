@@ -1,24 +1,52 @@
 @extends('layouts.app')
-
 @section('title', 'Top Custom Web & Software Development Services in India')
-
-
 @section('content')
-    <!-- Hero Section with Software Development Image -->
-    <section class="hero-section">
-        <div class="container">
-            <h1 class="display-5 fw-bold mb-4">Innovative web and software solutions, built for you</h1>
-            <p class="lead mb-5">Our innovative, tailored web and software solutions streamline operations, enhance user
-                experiences, and drive business growth.</p>
-            <a href="#contact" class="btn btn-primary btn-lg px-4 me-2">Get Started</a>
-            <a href="#services" class="btn btn-outline-light btn-lg px-4">Our Services</a>
+
+
+
+    <section class="integration-banner mt-1">
+        <div class="content-container text-dark">
+            <h3>Innovative web and software solutions, built for you</h3>
+            <p>Our innovative, tailored web and software solutions streamline operations, enhance user experiences, and
+                drive business growth.</p>
+            <a href="#tech-stack" class="btn">View Full Stack</a>
+        </div>
+
+        <!-- Floating Tech Icons -->
+        <div class="floating-logos">
+            <img src="{{ asset('asset/main/image/laravel.png') }}" class="floating-logo" style="top: 10%; left: 10%;">
+            <img src="{{ asset('asset/main/image/redux.png') }}" class="floating-logo" style="top: 22%; left: 25%;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" class="floating-logo"
+                style="top: 20%; right: 10%;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="floating-logo"
+                style="top: 55%; left: 5%;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" class="floating-logo"
+                style="bottom: 15%; right: 5%;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" class="floating-logo"
+                style="top: 65%; right: 15%;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="floating-logo"
+                style="top: 75%; left: 25%;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="floating-logo"
+                style="top: 60%; left: 15%;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="floating-logo"
+                style="bottom: 20%; right: 30%;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                class="floating-logo" style="top: 80%; left: 50%;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" class="floating-logo"
+                style="top: 15%; right: 30%;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" class="floating-logo"
+                style="top: 15%; left: 50%;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg"
+                class="floating-logo" style="bottom: 60%; left: 13%;">
         </div>
     </section>
+
+
     <!-- About Us Section -->
     <section class="py-1 bg-light">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-12 text-center mt-3">
+                <div class="col-lg-12 text-center mt-4">
                     <p class="lead text-muted">Elevate your business with exceptional software development services from a
                         team of skilled
                         professionals who can adapt to modern technology and drive growth. Collaborate with Indian
@@ -42,64 +70,101 @@
                     competitive edge.</p>
             </div>
 
-            <div class="row g-4">
+            <div class="row g-4 text-white d-flex justify-content-center align-items-center">
                 <!-- Web Development Card -->
                 <div class="col-md-4">
-                    <div class="card service-card">
-                        <img src="{{ asset('asset/main/image/web-development.jpg') }}" class="card-img-top"
-                            alt="Web Development">
-                        <div class="card-body">
-                            <h5 class="card-title">Custom Software Development</h5>
-                            <p class="card-text">Develop a software application in accordance with the changing needs of
-                                business and end users. IT Web Dream helps businesses by developing fully functional,
-                                feature-rich and compatible custom websites and custom mobile applications to drive growth
-                                and overcome business challenges.</p>
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-check text-primary me-2"></i> Responsive Design</li>
-                                <li><i class="fas fa-check text-primary me-2"></i> User-Centric Approach</li>
-                                <li><i class="fas fa-check text-primary me-2"></i> Scalable Architecture</li>
+                    <div class="card-box position-relative p-4">
+                        <!-- Background circles -->
+                        <div class="circle light_white"></div>
+                        <div class="circle blue"></div>
+
+                        <!-- Glass card -->
+                        <div class="glass-card p-4">
+                            <img src="{{ asset('asset/main/image/web-development.jpg') }}" alt="Laptop"
+                                class="img-fluid mb-3 laptop-img rounded-3">
+
+                            <h4 class="fw-bold text-dark">Custom Software<br>Development</h4>
+                            <p class="text-secondary mb-4">
+                                Develop a software application in accordance with the changing needs of business and end
+                                users.
+                                <strong>IT Web Dream</strong> helps businesses by developing fully functional, feature-rich
+                                and compatible
+                                custom websites and custom mobile applications to drive growth and overcome business
+                                challenges.
+                            </p>
+                            <ul class="list-unstyled text-dark">
+                                <li><i class="fas fa-check text-dark me-2"></i> Responsive Design</li>
+                                <li><i class="fas fa-check text-dark me-2"></i> User-Centric Approach</li>
+                                <li><i class="fas fa-check text-dark me-2"></i> Scalable Architecture</li>
                             </ul>
-                            <a href="{{ route('web-development') }}"
-                                class="bg-success rounded-2 btn text-light text-center btn-sm p-1 px-3">View
-                                More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- SEO Card -->
-                <div class="col-md-4">
-                    <div class="card service-card">
-                        <img src="{{ asset('asset/main/image/seoimage.jpg') }}" class="card-img-top" alt="SEO Services">
-                        <div class="card-body">
-                            <h5 class="card-title">SEO & Digital Marketing</h5>
-                            <p class="card-text">We offer comprehensive SEO strategies designed to enhance your online
-                                visibility, boost search engine rankings, and drive high-quality, targeted traffic to your
-                                website—ultimately increasing brand awareness, user engagement, and conversion rates for
-                                sustained business growth.</p>
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-check text-primary me-2"></i> Keyword Research</li>
-                                <li><i class="fas fa-check text-primary me-2"></i> On-Page Optimization</li>
-                                <li><i class="fas fa-check text-primary me-2"></i> Performance Analytics</li>
-                            </ul>
+
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="btn btn-success fw-bold px-4 py-2 rounded-pill">View More</a>
+                            </div>
+
                         </div>
                     </div>
                 </div>
 
-                <!-- Mobile App Card -->
                 <div class="col-md-4">
-                    <div class="card service-card">
-                        <img src="{{ asset('asset/main/image/app-development.jpg') }}" class="card-img-top"
-                            alt="Mobile Development">
-                        <div class="card-body">
-                            <h5 class="card-title">Mobile App Development</h5>
-                            <p class="card-text">We craft high-performance native and cross-platform mobile applications
-                                that ensure seamless functionality, intuitive interfaces, and exceptional user experiences
-                                across all devices—empowering your brand to connect with users anytime, anywhere, and drive
+                    <div class="card-box position-relative p-4">
+                        <!-- Background circles -->
+                        <div class="circle pink_white_one"></div>
+                        <div class="circle blue_one"></div>
+
+                        <!-- Glass card -->
+                        <div class="glass-card p-4">
+                            <img src="{{ asset('asset/main/image/app-development.jpg') }}" alt="Laptop"
+                                class="img-fluid mb-3 laptop-img rounded-3">
+
+                            <h4 class="fw-bold text-dark">Mobile App<br>Development</h4>
+                            <p class="card-text text-dark">We craft high-performance native and cross-platform mobile
+                                applications
+                                that ensure seamless functionality, intuitive interfaces, and exceptional user
+                                experiences
+                                across all devices—empowering your brand to connect with users anytime, anywhere, and
+                                drive
                                 meaningful engagement and business success.</p>
-                            <ul class="list-unstyled">
+                            <ul class="list-unstyled text-dark">
                                 <li><i class="fas fa-check text-primary me-2"></i> iOS & Android</li>
                                 <li><i class="fas fa-check text-primary me-2"></i> React Native/Flutter</li>
                                 <li><i class="fas fa-check text-primary me-2"></i> App Store Optimization</li>
                             </ul>
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="btn btn-success fw-bold px-4 py-2 rounded-pill">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card-box position-relative p-4">
+                        <!-- Background circles -->
+                        <div class="circle pink_white_two"></div>
+                        <div class="circle blue_two"></div>
+
+                        <!-- Glass card -->
+                        <div class="glass-card p-4">
+                            <img src="{{ asset('asset/main/image/seoimage.jpg') }}" alt="Laptop"
+                                class="img-fluid mb-3 laptop-img">
+
+                            <h4 class="fw-bold text-dark">SEO & Digital<br>Marketing</h4>
+                            <p class="card-text text-dark">We offer comprehensive SEO strategies designed to enhance your
+                                online
+                                visibility, boost search engine rankings, and drive high-quality, targeted traffic to
+                                your
+                                website—ultimately increasing brand awareness, user engagement, and conversion rates for
+                                sustained business growth.</p>
+                            <ul class="list-unstyled text-dark">
+                                <li><i class="fas fa-check text-primary me-2"></i> Keyword Research</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> On-Page Optimization</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Performance Analytics</li>
+                            </ul>
+
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="btn btn-success fw-bold px-4 py-2 rounded-pill">View More</a>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -265,7 +330,7 @@
                 <div class="col-md-6">
                     <div class="p-4 border rounded bg-white">
                         <img src="{{ asset('asset/main/image/Software_utsourcing.jpg') }}" alt="Software outsourcing"
-                            class="rounded-2">
+                            class="rounded-2 img-fluid">
                     </div>
                 </div>
 

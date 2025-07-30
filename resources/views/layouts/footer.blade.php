@@ -82,6 +82,7 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <script src="{{ asset('asset/main/js/main.js') }}"></script>
+<script src="{{ asset('asset/main/js/canva.js') }}"></script>
 <script src="{{ asset('asset/freecomma/commamain.js') }}"></script>
 
 </body>
