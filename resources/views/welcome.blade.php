@@ -1,9 +1,6 @@
 @extends('layouts.app')
 @section('title', 'Top Custom Web & Software Development Services in India')
 @section('content')
-
-
-
     <section class="integration-banner mt-1">
         <div class="content-container text-dark">
             <h3>Innovative web and software solutions, built for you</h3>
