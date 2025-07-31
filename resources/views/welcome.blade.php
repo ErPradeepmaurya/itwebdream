@@ -68,103 +68,87 @@
             </div>
 
             <div class="row g-4 text-white d-flex justify-content-center align-items-center">
-                <!-- Web Development Card -->
                 <div class="col-md-4">
-                    <div class="card-box position-relative p-4">
-                        <!-- Background circles -->
-                        <div class="circle light_white"></div>
-                        <div class="circle blue"></div>
+                    {{-- <div class="card-box position-relative p-4"> --}}
+                    <div class="glass-card p-4">
+                        <img src="{{ asset('asset/main/image/web-development.jpg') }}" alt="Laptop"
+                            class="img-fluid mb-3 laptop-img rounded-3">
 
-                        <!-- Glass card -->
-                        <div class="glass-card p-4">
-                            <img src="{{ asset('asset/main/image/web-development.jpg') }}" alt="Laptop"
-                                class="img-fluid mb-3 laptop-img rounded-3">
+                        <h4 class="fw-bold text-dark">Custom Software<br>Development</h4>
+                        <p class="text-secondary mb-4">
+                            Develop a software application in accordance with the changing needs of business and end
+                            users.
+                            <strong>IT Web Dream</strong> helps businesses by developing fully functional, feature-rich
+                            and compatible
+                            custom websites and custom mobile applications to drive growth and overcome business
+                            challenges.
+                        </p>
+                        <ul class="list-unstyled text-dark">
+                            <li><i class="fas fa-check text-primary me-2"></i> Responsive Design</li>
+                            <li><i class="fas fa-check text-primary me-2"></i> User-Centric Approach</li>
+                            <li><i class="fas fa-check text-primary me-2"></i> Scalable Architecture</li>
+                        </ul>
 
-                            <h4 class="fw-bold text-dark">Custom Software<br>Development</h4>
-                            <p class="text-secondary mb-4">
-                                Develop a software application in accordance with the changing needs of business and end
-                                users.
-                                <strong>IT Web Dream</strong> helps businesses by developing fully functional, feature-rich
-                                and compatible
-                                custom websites and custom mobile applications to drive growth and overcome business
-                                challenges.
-                            </p>
-                            <ul class="list-unstyled text-dark">
-                                <li><i class="fas fa-check text-dark me-2"></i> Responsive Design</li>
-                                <li><i class="fas fa-check text-dark me-2"></i> User-Centric Approach</li>
-                                <li><i class="fas fa-check text-dark me-2"></i> Scalable Architecture</li>
-                            </ul>
-
-                            <div class="d-flex justify-content-center">
-                                <a href="#" class="btn btn-success fw-bold px-4 py-2 rounded-pill">View More</a>
-                            </div>
-
+                        <div class="d-flex justify-content-center">
+                            <a href="{{ route('web-development') }}"
+                                class="btn btn-success fw-bold px-4 py-2 rounded-pill">View More</a>
                         </div>
                     </div>
+                    {{-- </div> --}}
                 </div>
 
                 <div class="col-md-4">
-                    <div class="card-box position-relative p-4">
-                        <!-- Background circles -->
-                        <div class="circle pink_white_one"></div>
-                        <div class="circle blue_one"></div>
+                    {{-- <div class="card-box position-relative p-4"> --}}
+                    <div class="glass-card p-4">
+                        <img src="{{ asset('asset/main/image/app-development.jpg') }}" alt="Laptop"
+                            class="img-fluid mb-3 laptop-img rounded-3">
 
-                        <!-- Glass card -->
-                        <div class="glass-card p-4">
-                            <img src="{{ asset('asset/main/image/app-development.jpg') }}" alt="Laptop"
-                                class="img-fluid mb-3 laptop-img rounded-3">
-
-                            <h4 class="fw-bold text-dark">Mobile App<br>Development</h4>
-                            <p class="card-text text-dark">We craft high-performance native and cross-platform mobile
-                                applications
-                                that ensure seamless functionality, intuitive interfaces, and exceptional user
-                                experiences
-                                across all devices—empowering your brand to connect with users anytime, anywhere, and
-                                drive
-                                meaningful engagement and business success.</p>
-                            <ul class="list-unstyled text-dark">
-                                <li><i class="fas fa-check text-primary me-2"></i> iOS & Android</li>
-                                <li><i class="fas fa-check text-primary me-2"></i> React Native/Flutter</li>
-                                <li><i class="fas fa-check text-primary me-2"></i> App Store Optimization</li>
-                            </ul>
-                            <div class="d-flex justify-content-center">
-                                <a href="#" class="btn btn-success fw-bold px-4 py-2 rounded-pill">View More</a>
-                            </div>
+                        <h4 class="fw-bold text-dark">Mobile App<br>Development</h4>
+                        <p class="card-text text-dark">We craft high-performance native and cross-platform mobile
+                            applications
+                            that ensure seamless functionality, intuitive interfaces, and exceptional user
+                            experiences
+                            across all devices—empowering your brand to connect with users anytime, anywhere, and
+                            drive
+                            meaningful engagement and business success.</p>
+                        <ul class="list-unstyled text-dark">
+                            <li><i class="fas fa-check text-primary me-2"></i> iOS & Android</li>
+                            <li><i class="fas fa-check text-primary me-2"></i> React Native/Flutter</li>
+                            <li><i class="fas fa-check text-primary me-2"></i> App Store Optimization</li>
+                        </ul>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-success fw-bold px-4 py-2 rounded-pill">View More</a>
                         </div>
                     </div>
+                    {{-- </div> --}}
                 </div>
 
                 <div class="col-md-4">
-                    <div class="card-box position-relative p-4">
-                        <!-- Background circles -->
-                        <div class="circle pink_white_two"></div>
-                        <div class="circle blue_two"></div>
+                    {{-- <div class="card-box position-relative p-4 "> --}}
+                    <div class="glass-card p-4">
+                        <img src="{{ asset('asset/main/image/seoimage.jpg') }}" alt="Laptop"
+                            class="img-fluid mb-3 laptop-img rounded-3">
 
-                        <!-- Glass card -->
-                        <div class="glass-card p-4">
-                            <img src="{{ asset('asset/main/image/seoimage.jpg') }}" alt="Laptop"
-                                class="img-fluid mb-3 laptop-img">
+                        <h4 class="fw-bold text-dark">SEO & Digital<br>Marketing</h4>
+                        <p class="card-text text-dark">We offer comprehensive SEO strategies designed to enhance your
+                            online
+                            visibility, boost search engine rankings, and drive high-quality, targeted traffic to
+                            your
+                            website—ultimately increasing brand awareness, user engagement, and conversion rates for
+                            sustained business growth.</p>
+                        <ul class="list-unstyled text-dark">
+                            <li><i class="fas fa-check text-primary me-2"></i> Keyword Research</li>
+                            <li><i class="fas fa-check text-primary me-2"></i> On-Page Optimization</li>
+                            <li><i class="fas fa-check text-primary me-2"></i> Performance Analytics</li>
+                        </ul>
 
-                            <h4 class="fw-bold text-dark">SEO & Digital<br>Marketing</h4>
-                            <p class="card-text text-dark">We offer comprehensive SEO strategies designed to enhance your
-                                online
-                                visibility, boost search engine rankings, and drive high-quality, targeted traffic to
-                                your
-                                website—ultimately increasing brand awareness, user engagement, and conversion rates for
-                                sustained business growth.</p>
-                            <ul class="list-unstyled text-dark">
-                                <li><i class="fas fa-check text-primary me-2"></i> Keyword Research</li>
-                                <li><i class="fas fa-check text-primary me-2"></i> On-Page Optimization</li>
-                                <li><i class="fas fa-check text-primary me-2"></i> Performance Analytics</li>
-                            </ul>
-
-                            <div class="d-flex justify-content-center">
-                                <a href="#" class="btn btn-success fw-bold px-4 py-2 rounded-pill">View More</a>
-                            </div>
-
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-success fw-bold px-4 py-2 rounded-pill">View More</a>
                         </div>
+
                     </div>
                 </div>
+                {{-- </div> --}}
             </div>
         </div>
     </section>
@@ -180,7 +164,7 @@
             <div class="row g-4 text-center">
                 <!-- Full Stack -->
                 <div class="col-md-3 col-6">
-                    <div class="p-4 border rounded-3 h-100">
+                    <div class="p-4 border rounded-3 h-100 technology-shadow animate-shadow">
                         <i class="fas fa-layer-group tech-icon"></i>
                         <h5>Full Stack</h5>
                         <p class="text-muted">End-to-end development from frontend to backend and database</p>
@@ -189,7 +173,7 @@
 
                 <!-- MERN Stack -->
                 <div class="col-md-3 col-6">
-                    <div class="p-4 border rounded-3 h-100">
+                    <div class="p-4 border rounded-3 h-100 technology-shadow">
                         <i class="fab fa-react tech-icon"></i>
                         <h5>MERN Stack</h5>
                         <p class="text-muted">MongoDB, Express.js, React, Node.js for modern web apps</p>
@@ -198,7 +182,7 @@
 
                 <!-- Database -->
                 <div class="col-md-3 col-6">
-                    <div class="p-4 border rounded-3 h-100">
+                    <div class="p-4 border rounded-3 h-100 technology-shadow">
                         <i class="fas fa-database tech-icon"></i>
                         <h5>Database</h5>
                         <p class="text-muted">SQL & NoSQL solutions: MySQL, PostgreSQL, MongoDB, Firebase</p>
@@ -207,7 +191,7 @@
 
                 <!-- Graphic Design -->
                 <div class="col-md-3 col-6">
-                    <div class="p-4 border rounded-3 h-100">
+                    <div class="p-4 border rounded-3 h-100 technology-shadow">
                         <i class="fas fa-paint-brush tech-icon"></i>
                         <h5>UI/UX Design</h5>
                         <p class="text-muted">Beautiful, intuitive interfaces with Figma, Adobe XD, and more</p>
@@ -216,7 +200,7 @@
 
                 <!-- SEO -->
                 <div class="col-md-3 col-6">
-                    <div class="p-4 border rounded-3 h-100">
+                    <div class="p-4 border rounded-3 h-100 technology-shadow">
                         <i class="fas fa-search-dollar tech-icon"></i>
                         <h5>SEO</h5>
                         <p class="text-muted">Search Engine Optimization to boost your online presence</p>
@@ -225,7 +209,7 @@
 
                 <!-- Cloud -->
                 <div class="col-md-3 col-6">
-                    <div class="p-4 border rounded-3 h-100">
+                    <div class="p-4 border rounded-3 h-100 technology-shadow">
                         <i class="fas fa-cloud tech-icon"></i>
                         <h5>Cloud Services</h5>
                         <p class="text-muted">AWS, Azure, Google Cloud for scalable infrastructure</p>
@@ -234,7 +218,7 @@
 
                 <!-- DevOps -->
                 <div class="col-md-3 col-6">
-                    <div class="p-4 border rounded-3 h-100">
+                    <div class="p-4 border rounded-3 h-100 technology-shadow">
                         <i class="fas fa-server tech-icon"></i>
                         <h5>DevOps</h5>
                         <p class="text-muted">CI/CD pipelines, Docker, Kubernetes for seamless deployment</p>
@@ -243,7 +227,7 @@
 
                 <!-- AI/ML -->
                 <div class="col-md-3 col-6">
-                    <div class="p-4 border rounded-3 h-100">
+                    <div class="p-4 border rounded-3 h-100 technology-shadow">
                         <i class="fas fa-robot tech-icon"></i>
                         <h5>AI/ML</h5>
                         <p class="text-muted">Artificial Intelligence and Machine Learning solutions</p>
@@ -267,7 +251,7 @@
             <div class="row g-4">
                 <h5 class="display-6 text-center">Our Expertise</h5>
                 <div class="col-md-6">
-                    <div class="p-4 border rounded bg-white h-100">
+                    <div class="p-4 border rounded bg-white h-100 expertise-shadow">
                         <ul class="text-start list-unstyled">
                             <li><i class="fas fa-check-circle text-primary me-2"></i> Fintech & Insurance</li>
                             <li><i class="fas fa-check-circle text-primary me-2"></i> Education (Portal, ERP etc)
@@ -278,7 +262,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="p-4 border rounded bg-white h-100">
+                    <div class="p-4 border rounded bg-white h-100 expertise-shadow">
                         <ul class="text-start list-unstyled">
                             <li><i class="fas fa-check-circle text-primary me-2"></i> Media</li>
                             <li><i class="fas fa-check-circle text-primary me-2"></i> Retail & eCommerce</li>
@@ -325,21 +309,21 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="p-4 border rounded bg-white">
+                    <div class="p-1 border h-auto rounded bg-white outsourcing-shadow">
                         <img src="{{ asset('asset/main/image/Software_utsourcing.jpg') }}" alt="Software outsourcing"
                             class="rounded-2 img-fluid">
                     </div>
                 </div>
 
                 <div class="col-md-6">
-                    <div class="p-4 border rounded bg-white h-100">
+                    <div class="p-1 border rounded bg-white h-100 outsourcing-shadow">
                         <img src="{{ asset('asset/main/image/software_development.jpg') }}" alt="Software development"
                             class="rounded-2 img-fluid">
                     </div>
                 </div>
 
                 <div class="col-md-6">
-                    <div class="bg-white h-100">
+                    <div class="bg-white h-auto">
                         <h2 class="display-5 fw-bold">Why choose India for software development services? </h2>
                         <p class="lead text-muted">Technology is evolving every day, encouraging businesses to perform
                             better by harnessing its power and that will help businesses to stand through disruptions.

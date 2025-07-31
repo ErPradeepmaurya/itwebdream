@@ -41,31 +41,31 @@
 </nav>
 
 <!-- Offcanvas Sidebar for Mobile -->
-<div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" id="mobileNav">
+<div class="offcanvas offcanvas-end mobile-nav-bg" tabindex="-1" id="mobileNav">
     <div class="offcanvas-header">
-        <h5 class="offcanvas-title fw-bold">Menu</h5>
-        <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"
+        {{-- <h5 class="offcanvas-title fw-bold">Menu</h5> --}}
+        <a class="navbar-brand text-white fw-bold" href="{{ route('welcome') }}">
+            <img src="{{ asset('asset/main/image/itwebdream-logo2.png') }}" alt="logo" width="180px">
+        </a>
+        <button type="button" class="btn-close btn-close text-reset" data-bs-dismiss="offcanvas"
             aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
-        <ul class="navbar-nav text-uppercase">
+        <ul class="navbar-nav text-uppercase py-5">
             <li class="nav-item">
-                <a class="nav-link text-white fw-bold" href="{{ route('aboutus') }}">About Us</a>
+                <a class="nav-link fw-bold py-3" href="{{ route('aboutus') }}">About Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white fw-bold" href="#services">Services</a>
+                <a class="nav-link fw-bold py-3" href="#services">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white fw-bold" href="#technologies">Technologies</a>
+                <a class="nav-link fw-bold py-3" href="#technologies">Technologies</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white fw-bold" href="{{ route('faq') }}">FAQ</a>
+                <a class="nav-link fw-bold py-3" href="{{ route('faq') }}">FAQ</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white fw-bold" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item mt-3">
-                <a href="#" class="btn btn-outline-light fw-bold w-100">Login</a>
+                <a class="nav-link fw-bold py-3" href="#contact">Contact</a>
             </li>
         </ul>
     </div>

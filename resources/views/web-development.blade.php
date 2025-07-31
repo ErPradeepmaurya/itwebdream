@@ -5,31 +5,31 @@
 
 @section('content')
     <!-- Terms and Conditions Section -->
-    <section class="py-5 bg-white">
+    <section class="py-3 bg-white">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-12">
+                <div class="web-banner">
                     <h1 class="display-5 fw-bold text-center mb-5">Design and development of web applications</h1>
-                    <!-- Introduction -->
-                    <p class="lead text-muted">Design and development of web applications involve creating dynamic,
-                        interactive, and user-friendly digital platforms tailored to meet specific business needs. This
-                        process begins with understanding the client’s goals, followed by crafting intuitive user interfaces
-                        (UI) and seamless user experiences (UX). Designers focus on aesthetics and usability, while
-                        developers build the underlying functionality using front-end and back-end technologies such as
-                        HTML, CSS, JavaScript, Node.js, and databases. A well-developed web application ensures fast
-                        performance, mobile responsiveness, data security, and scalability. Whether it's an e-commerce
-                        platform, a customer portal, or a content management system, effective web application development
-                        transforms ideas into functional tools that improve efficiency and user engagement. Collaborating
-                        with experienced professionals ensures that the final product aligns with industry standards,
-                        delivers value, and enhances brand presence online.
-                    </p>
                 </div>
+                <!-- Introduction -->
+                <p class="lead text-muted">Design and development of web applications involve creating dynamic,
+                    interactive, and user-friendly digital platforms tailored to meet specific business needs. This
+                    process begins with understanding the client’s goals, followed by crafting intuitive user interfaces
+                    (UI) and seamless user experiences (UX). Designers focus on aesthetics and usability, while
+                    developers build the underlying functionality using front-end and back-end technologies such as
+                    HTML, CSS, JavaScript, Node.js, and databases. A well-developed web application ensures fast
+                    performance, mobile responsiveness, data security, and scalability. Whether it's an e-commerce
+                    platform, a customer portal, or a content management system, effective web application development
+                    transforms ideas into functional tools that improve efficiency and user engagement. Collaborating
+                    with experienced professionals ensures that the final product aligns with industry standards,
+                    delivers value, and enhances brand presence online.
+                </p>
 
 
                 <div class="container" id="technologies">
                     <div class="row g-4 text-center">
-                        <div class="col-md-4 col-6">
-                            <div class="p-4 border rounded-3 h-100">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="p-4 border rounded-3 h-100 technology-shadow">
                                 <i class="fas fa-laptop-code tech-icon card border-primary p-2"></i>
                                 <h5>Front-end Web Development</h5>
                                 <p class="text-muted">Utilize the reusable components and deliver component-driven
@@ -40,8 +40,8 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-6">
-                            <div class="p-4 border rounded-3 h-100">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="p-4 border rounded-3 h-100 technology-shadow">
                                 <i class="fas fa-server tech-icon card border-primary p-2"></i>
                                 <h5>Back-end Development</h5>
                                 <p class="text-muted">Seamlessly navigate between multiple features of an application by
@@ -51,8 +51,8 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-6">
-                            <div class="p-4 border rounded-3 h-100">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="p-4 border rounded-3 h-100 technology-shadow">
                                 <i class="fas fa-rocket tech-icon card border-primary p-2"></i>
                                 <h5>Progressive Web Apps</h5>
                                 <p class="text-muted">Aligning to the modern needs of app development, we create native web
@@ -62,8 +62,8 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-6">
-                            <div class="p-4 border rounded-3 h-100">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="p-4 border rounded-3 h-100 technology-shadow">
                                 <i class="fas fa-shopping-cart tech-icon card border-primary p-2"></i>
                                 <h5>Ecommerce Web App Development</h5>
                                 <p class="text-muted">Customize and build eCommerce Web Apps using Shopify, Magento and
@@ -73,8 +73,8 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-6">
-                            <div class="p-4 border rounded-3 h-100">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="p-4 border rounded-3 h-100 technology-shadow">
                                 <i class="fas fa-project-diagram tech-icon card border-primary p-2"></i>
                                 <h5>Custom Web Application Development services</h5>
                                 <p class="text-muted">We help you deliver superior web development services combined with
@@ -84,8 +84,8 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-6">
-                            <div class="p-4 border rounded-3 h-100">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="p-4 border rounded-3 h-100 technology-shadow">
                                 <i class="fas fa-mobile-alt tech-icon card border-primary p-2"></i>
                                 <h5>Cross-Platform App development</h5>
                                 <p class="text-muted">Our cross-platform app developers specialize in creating hybrid
@@ -108,7 +108,7 @@
                     <div class="row g-4 text-center">
                         <!-- Full Stack -->
                         <div class="col-md-3 col-6">
-                            <div class="p-4 border rounded-3 h-100">
+                            <div class="p-4 border rounded-3 h-100 technology-shadow">
                                 <i class="fas fa-layer-group tech-icon"></i>
                                 <h5>Full Stack</h5>
                                 <p class="text-muted">End-to-end development from frontend to backend and database</p>
@@ -117,7 +117,7 @@
 
                         <!-- MERN Stack -->
                         <div class="col-md-3 col-6">
-                            <div class="p-4 border rounded-3 h-100">
+                            <div class="p-4 border rounded-3 h-100 technology-shadow">
                                 <i class="fab fa-react tech-icon"></i>
                                 <h5>MERN Stack</h5>
                                 <p class="text-muted">MongoDB, Express.js, React, Node.js for modern web apps</p>
@@ -126,7 +126,7 @@
 
                         <!-- Database -->
                         <div class="col-md-3 col-6">
-                            <div class="p-4 border rounded-3 h-100">
+                            <div class="p-4 border rounded-3 h-100 technology-shadow">
                                 <i class="fas fa-database tech-icon"></i>
                                 <h5>Database</h5>
                                 <p class="text-muted">SQL & NoSQL solutions: MySQL, PostgreSQL, MongoDB, Firebase</p>
@@ -135,7 +135,7 @@
 
                         <!-- Graphic Design -->
                         <div class="col-md-3 col-6">
-                            <div class="p-4 border rounded-3 h-100">
+                            <div class="p-4 border rounded-3 h-100 technology-shadow">
                                 <i class="fas fa-paint-brush tech-icon"></i>
                                 <h5>UI/UX Design</h5>
                                 <p class="text-muted">Beautiful, intuitive interfaces with Figma, Adobe XD, and more</p>
@@ -144,7 +144,7 @@
 
                         <!-- SEO -->
                         <div class="col-md-3 col-6">
-                            <div class="p-4 border rounded-3 h-100">
+                            <div class="p-4 border rounded-3 h-100 technology-shadow">
                                 <i class="fas fa-search-dollar tech-icon"></i>
                                 <h5>SEO</h5>
                                 <p class="text-muted">Search Engine Optimization to boost your online presence</p>
@@ -153,7 +153,7 @@
 
                         <!-- Cloud -->
                         <div class="col-md-3 col-6">
-                            <div class="p-4 border rounded-3 h-100">
+                            <div class="p-4 border rounded-3 h-100 technology-shadow">
                                 <i class="fas fa-cloud tech-icon"></i>
                                 <h5>Cloud Services</h5>
                                 <p class="text-muted">AWS, Azure, Google Cloud for scalable infrastructure</p>
@@ -162,7 +162,7 @@
 
                         <!-- DevOps -->
                         <div class="col-md-3 col-6">
-                            <div class="p-4 border rounded-3 h-100">
+                            <div class="p-4 border rounded-3 h-100 technology-shadow">
                                 <i class="fas fa-server tech-icon"></i>
                                 <h5>DevOps</h5>
                                 <p class="text-muted">CI/CD pipelines, Docker, Kubernetes for seamless deployment</p>
@@ -171,7 +171,7 @@
 
                         <!-- AI/ML -->
                         <div class="col-md-3 col-6">
-                            <div class="p-4 border rounded-3 h-100">
+                            <div class="p-4 border rounded-3 h-100 technology-shadow">
                                 <i class="fas fa-robot tech-icon"></i>
                                 <h5>AI/ML</h5>
                                 <p class="text-muted">Artificial Intelligence and Machine Learning solutions</p>

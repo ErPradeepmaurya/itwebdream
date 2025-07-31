@@ -11,7 +11,7 @@
         <div class="row justify-content-center g-4">
             <!-- Email Card -->
             <div class="col-md-4 col-sm-6">
-                <div class="card h-100 border-0 shadow-sm p-3">
+                <div class="card h-100 border-0 p-3 contact-shadow">
                     <div class="d-flex align-items-center">
                         <i class="fas fa-envelope fa-2x text-primary me-3"></i>
                         <div>
@@ -26,7 +26,7 @@
 
             <!-- Phone Card -->
             <div class="col-md-4 col-sm-6">
-                <div class="card h-100 border-0 shadow-sm p-3">
+                <div class="card h-100 border-0 contact-shadow p-3">
                     <div class="d-flex align-items-center">
                         <i class="fas fa-phone fa-2x text-primary me-3"></i>
                         <div>
@@ -39,12 +39,12 @@
 
             <!-- Address Card -->
             <div class="col-md-4 col-sm-6">
-                <div class="card h-100 border-0 shadow-sm p-3">
+                <div class="card h-100 border-0 contact-shadow p-3">
                     <div class="d-flex align-items-center">
                         <i class="fas fa-map-marker-alt fa-2x text-primary me-3"></i>
                         <div>
                             <h5 class="mb-1">Address</h5>
-                            <p class="mb-0 text-muted">India,<br> Lucknow Sahara Road Jankipuram 226021</p>
+                            <p class="mb-0 text-muted">Lucknow Sahara Road Jankipuram 226021, Uttar Pradesh</p>
                         </div>
                     </div>
                 </div>
@@ -56,18 +56,18 @@
 <a href="https://api.whatsapp.com/send?phone=8707579029" class="float" target="_blank">
     <i class="fa fa-whatsapp my-float"></i>
 </a>
-<footer class="bg-dark py-5">
+<footer class="footer-copyright py-2">
     <div class="container">
         <div class="row">
             <div class="col-md-6 text-center text-md-start">
-                <p class="text-white mb-0">&copy; {{ date('Y') }} ITWEBDREAM Software Solutions. All rights
+                <p class="text-dark fw-bold mb-0">&copy; {{ date('Y') }} ITWEBDREAM Software Solutions. All rights
                     reserved.
                 </p>
             </div>
             <div class="col-md-6 text-center text-md-end">
-                <p class="text-white mb-0"><a href="{{ route('terms-conditions') }}" class="text-white mb-0">Terms &
+                <p class="text-dark mb-0"><a href="{{ route('terms-conditions') }}" class="text-dark mb-0">Terms &
                         Conditions</a> |
-                    <a href="{{ route('privacy-policy') }}" class="text-white mb-0">Privacy Policy</a>
+                    <a href="{{ route('privacy-policy') }}" class="text-dark mb-0">Privacy Policy</a>
                 </p>
             </div>
         </div>
