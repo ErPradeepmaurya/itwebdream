@@ -45,6 +45,16 @@ class MainController extends Controller
         return view('comming-soon');
     }
 
+    public function technology()
+    {
+        return view('technology');
+    }
+
+    public function contactus()
+    {
+        return view('contact-us');
+    }
+
     public function sitemap()
     {
         $content = view('sitemap')->render();

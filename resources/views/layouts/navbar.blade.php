@@ -33,21 +33,19 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link fw-bold" href="#technologies">Technologies</a>
+                    <a class="nav-link fw-bold" href="{{ route('technology') }}">Technologies</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link fw-bold" href="{{ route('faq') }}">FAQ</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link fw-bold" href="#contact">Contact</a>
-                </li>
+
             </ul>
         </div>
 
 
         <!-- Right: Login button -->
         <div class="d-none d-lg-block nav-login">
-            <a href="#">Login</a>
+            <a href="{{ route('contact-us') }}">Contact</a>
         </div>
 
 
@@ -74,16 +72,16 @@
                 <a class="nav-link fw-bold py-3" href="{{ route('aboutus') }}">About Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link fw-bold py-3" href="#services">Services</a>
+                <a class="nav-link fw-bold py-3" href="{{ route('web-development') }}">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link fw-bold py-3" href="#technologies">Technologies</a>
+                <a class="nav-link fw-bold py-3" href="{{ route('technology') }}">Technologies</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link fw-bold py-3" href="{{ route('faq') }}">FAQ</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link fw-bold py-3" href="#contact">Contact</a>
+                <a class="nav-link fw-bold py-3" href="{{ route('contact-us') }}">Contact</a>
             </li>
         </ul>
     </div>

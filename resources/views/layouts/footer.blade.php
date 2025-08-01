@@ -1,5 +1,5 @@
 <!-- Contact Section -->
-<section id="contact" class="bg-light">
+<section id="contact" class="bg-light mb-5">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-12 text-center">
@@ -56,7 +56,19 @@
 <a href="https://api.whatsapp.com/send?phone=8707579029" class="float" target="_blank">
     <i class="fa fa-whatsapp my-float"></i>
 </a>
-<footer class="footer-copyright py-2">
+<style>
+    .fixed-footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #f8f9fa;
+        /* adjust as needed */
+        text-align: center;
+        z-index: 1000;
+        box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+    }
+</style>
+<footer class="footer-copyright py-2 mt-5 fixed-footer">
     <div class="container">
         <div class="row">
             <div class="col-md-6 text-center text-md-start">

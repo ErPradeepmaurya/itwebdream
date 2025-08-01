@@ -14,6 +14,10 @@ Route::get('about-us', [MainController::class, 'aboutus'])->name('aboutus');
 Route::get('custom-doftware-development', [MainController::class, 'webdevelopment'])->name('web-development');
 Route::get('UI-UX-Design', [MainController::class, 'uiuxdesign'])->name('uiux-design');
 Route::get('comming-soon', [MainController::class, 'commingsoon'])->name('comming-soon');
+Route::get('technology', [MainController::class, 'technology'])->name('technology');
+Route::get('contact-us', [MainController::class, 'contactus'])->name('contact-us');
+
+
 
 
 Route::get('sitemap.xml', [MainController::class, 'sitemap'])->name('sitemap');
