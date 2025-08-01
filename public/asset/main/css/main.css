@@ -70,6 +70,27 @@ section {
     border-radius: 25px;
 }
 
+/* dropdown  */
+/* Prevent dropdown from changing navbar height */
+.navbar-nav .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: #ffffffd5 !important;
+
+}
+
+.dropdown-menu {
+    transition: opacity 0.2s ease;
+}
+
+
 .nav-login a:hover {
     background-color: #1826EE;
     border: 3px solid rgb(255, 255, 255);
@@ -240,7 +261,6 @@ section {
 .glass-card {
     position: relative;
     border-radius: 25px;
-    padding: 20px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(15px);
     overflow: hidden;
@@ -396,4 +416,150 @@ section {
 .web-banner h1 {
     position: relative;
     z-index: 2;
+}
+
+/* ======================================================== */
+
+.img-container {
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.tech-img {
+    height: auto;
+    width: 100%;
+    transition: transform 1.2s ease;
+    transform: translateY(0%);
+}
+
+.img-container:hover .tech-img {
+    transform: translateY(-53%);
+}
+
+@media (max-width: 768px) {
+    .img-container {
+        height: 200px;
+        overflow: hidden;
+        position: relative;
+    }
+}
+
+/* development roadmap  */
+
+
+.timeline {
+    position: relative;
+    padding: 60px 0;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 7px;
+    background: linear-gradient(1deg, rgba(24, 38, 238, 0.677) 0%, rgba(255, 255, 255, 0) 75%, rgba(82, 91, 195, 0.855) 100%);
+    margin-left: -2px;
+    animation: growLine 10s ease-out forwards;
+    border-radius: 5px;
+}
+
+@keyframes growLine {
+    from {
+        height: 0;
+    }
+
+    to {
+        height: 100%;
+    }
+}
+
+.timeline-item {
+    padding: 30px 0;
+    position: relative;
+}
+
+.timeline-item::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.timeline-item-left,
+.timeline-item-right {
+    position: relative;
+    width: 48%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    border: 2px solid #1826EE !important;
+    backdrop-filter: blur(12px);
+    box-shadow: 6px 6px 15px rgba(24, 38, 238, 0.4);
+}
+
+.timeline-item-left {
+    float: left;
+    text-align: right;
+}
+
+.timeline-item-right {
+    float: right;
+    text-align: left;
+}
+
+.timeline-icon {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1826EE;
+    box-shadow: 6px 6px 15px rgba(24, 38, 238, 0.4);
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.timeline-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.timeline-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1826EE;
+}
+
+.timeline-description {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+@media (max-width: 767px) {
+    .timeline::before {
+        left: 20px;
+    }
+
+    .timeline-item-left,
+    .timeline-item-right {
+        width: 80%;
+        float: none;
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    .timeline-icon {
+        left: 20px;
+        transform: none;
+    }
 }

@@ -117,7 +117,8 @@
                             <li><i class="fas fa-check text-primary me-2"></i> App Store Optimization</li>
                         </ul>
                         <div class="d-flex justify-content-center">
-                            <a href="#" class="btn btn-success fw-bold px-4 py-2 rounded-pill">View More</a>
+                            <a href="{{ route('comming-soon') }}"
+                                class="btn btn-success fw-bold px-4 py-2 rounded-pill">View More</a>
                         </div>
                     </div>
                     {{-- </div> --}}
@@ -143,7 +144,8 @@
                         </ul>
 
                         <div class="d-flex justify-content-center">
-                            <a href="#" class="btn btn-success fw-bold px-4 py-2 rounded-pill">View More</a>
+                            <a href="{{ route('comming-soon') }}"
+                                class="btn btn-success fw-bold px-4 py-2 rounded-pill">View More</a>
                         </div>
 
                     </div>
@@ -278,7 +280,7 @@
     <!-- Why Software Outsourcing?  -->
     <section id="experience" class="mb-0">
         <div class="container">
-            <div class="row g-4">
+            <div class="row g-4 align-items-center">
                 <div class="col-md-6">
                     <h2 class="display-5 fw-bold">Why Software Outsourcing? </h2>
                     <div class="bg-white h-100">
@@ -310,14 +312,14 @@
                 </div>
                 <div class="col-md-6">
                     <div class="p-1 border h-auto rounded bg-white outsourcing-shadow">
-                        <img src="{{ asset('asset/main/image/Software_utsourcing.jpg') }}" alt="Software outsourcing"
+                        <img src="{{ asset('asset/main/image/full-stack-development.gif') }}" alt="Software outsourcing"
                             class="rounded-2 img-fluid">
                     </div>
                 </div>
 
                 <div class="col-md-6">
                     <div class="p-1 border rounded bg-white h-100 outsourcing-shadow">
-                        <img src="{{ asset('asset/main/image/software_development.jpg') }}" alt="Software development"
+                        <img src="{{ asset('asset/main/image/service-provider.gif') }}" alt="Software development"
                             class="rounded-2 img-fluid">
                     </div>
                 </div>
@@ -343,6 +345,92 @@
                                 investment cost</li>
                         </ul>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container timeline">
+            <!-- Step 1 -->
+            <div class="timeline-item">
+                <div class="timeline-icon">1</div>
+                <div class="timeline-item-left">
+                    <img src="https://media.giphy.com/media/3ohs4Cq8R8Xe2zo1tK/giphy.gif" alt="Planning"
+                        class="timeline-image">
+                    <div class="timeline-title">Planning</div>
+                    <div class="timeline-description">Understanding client requirements and building a solid roadmap.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="timeline-item">
+                <div class="timeline-icon">2</div>
+                <div class="timeline-item-right">
+                    <img src="https://media.giphy.com/media/3o7abldj0b3rxrZUxW/giphy.gif" alt="Analysis"
+                        class="timeline-image">
+                    <div class="timeline-title">Analysis</div>
+                    <div class="timeline-description">Deep technical and market research to define scope and features.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="timeline-item">
+                <div class="timeline-icon">3</div>
+                <div class="timeline-item-left">
+                    <img src="https://media.giphy.com/media/3o7abldj0b3rxrZUxW/giphy.gif" alt="Design"
+                        class="timeline-image">
+                    <div class="timeline-title">Design</div>
+                    <div class="timeline-description">Creating wireframes, mockups, and interactive UX/UI interfaces.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="timeline-item">
+                <div class="timeline-icon">4</div>
+                <div class="timeline-item-right">
+                    <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" alt="Implementation"
+                        class="timeline-image">
+                    <div class="timeline-title">Implementation</div>
+                    <div class="timeline-description">Frontend and backend development by expert engineers.</div>
+                </div>
+            </div>
+
+            <!-- Step 5 -->
+            <div class="timeline-item">
+                <div class="timeline-icon">5</div>
+                <div class="timeline-item-left">
+                    <img src="https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif" alt="Testing"
+                        class="timeline-image">
+                    <div class="timeline-title">Testing</div>
+                    <div class="timeline-description">QA engineers run multiple test cases to ensure bug-free release.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 6 -->
+            <div class="timeline-item">
+                <div class="timeline-icon">6</div>
+                <div class="timeline-item-right">
+                    <img src="https://media.giphy.com/media/5t9wJjyHAOxvnDnTk3/giphy.gif" alt="Deployment"
+                        class="timeline-image">
+                    <div class="timeline-title">Deployment</div>
+                    <div class="timeline-description">Project goes live to the server with backup and security
+                        measures.</div>
+                </div>
+            </div>
+
+            <!-- Step 7 -->
+            <div class="timeline-item">
+                <div class="timeline-icon">7</div>
+                <div class="timeline-item-left">
+                    <img src="https://media.giphy.com/media/fwbZnTftCXVocKzfxR/giphy.gif" alt="Maintenance"
+                        class="timeline-image">
+                    <div class="timeline-title">Maintenance</div>
+                    <div class="timeline-description">Ongoing support, monitoring, and enhancement post-launch.</div>
                 </div>
             </div>
         </div>

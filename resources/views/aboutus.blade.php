@@ -9,7 +9,9 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <h1 class="display-5 fw-bold text-center mb-5">About Us</h1>
+                    <div class="web-banner">
+                        <h1 class="display-5 fw-bold text-center mb-5">About Us - ITWEBDREAM</h1>
+                    </div>
 
                     <h2 class="h4 fw-bold mt-4">Empowering Businesses with Custom Software Solutions</h2>
                     <p class="lead text-muted">At our core, we are a consummate Custom Software Development company committed

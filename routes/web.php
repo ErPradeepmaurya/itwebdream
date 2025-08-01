@@ -12,6 +12,10 @@ Route::get('privacy-policy', [MainController::class, 'privacypolicy'])->name('pr
 Route::get('faq', [MainController::class, 'faq'])->name('faq');
 Route::get('about-us', [MainController::class, 'aboutus'])->name('aboutus');
 Route::get('custom-doftware-development', [MainController::class, 'webdevelopment'])->name('web-development');
+Route::get('UI-UX-Design', [MainController::class, 'uiuxdesign'])->name('uiux-design');
+Route::get('comming-soon', [MainController::class, 'commingsoon'])->name('comming-soon');
+
+
 Route::get('sitemap.xml', [MainController::class, 'sitemap'])->name('sitemap');
 
 // Route::get('free-comma-separator-tool', [FreeCommaController::class, 'FreeCommaController'])->name('FreeComma.freecommatool');

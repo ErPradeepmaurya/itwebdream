@@ -35,6 +35,15 @@ class MainController extends Controller
     {
         return view('web-development');
     }
+    public function uiuxdesign()
+    {
+        return view('ui-ux-design');
+    }
+
+    public function commingsoon()
+    {
+        return view('comming-soon');
+    }
 
     public function sitemap()
     {

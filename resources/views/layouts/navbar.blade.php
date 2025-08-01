@@ -7,14 +7,31 @@
         </a>
 
         <!-- Center Nav for Desktop -->
+        <!-- Navbar Wrapper -->
         <div class="d-none d-lg-flex justify-content-center flex-grow-1">
             <ul class="navbar-nav flex-row gap-3 text-uppercase nav-menu main-menu">
                 <li class="nav-item">
                     <a class="nav-link fw-bold" href="{{ route('aboutus') }}">About Us</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link fw-bold" href="#services">Services</a>
+
+                <!-- Services Dropdown -->
+                <li class="nav-item dropdown position-relative">
+                    <a class="nav-link fw-bold dropdown-toggle" href="#" id="servicesDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu text-start text-light" aria-labelledby="servicesDropdown">
+                        <li><a class="dropdown-item text-light" href="{{ route('comming-soon') }}">Web Development</a>
+                        </li>
+                        <li><a class="dropdown-item text-light" href="{{ route('comming-soon') }}">Mobile App
+                                Development</a>
+                        </li>
+                        <li><a class="dropdown-item text-light" href="{{ route('web-development') }}">Custom
+                                Software</a></li>
+                        <li><a class="dropdown-item text-light" href="{{ route('uiux-design') }}">UI/UX Design</a></li>
+                    </ul>
                 </li>
+
                 <li class="nav-item">
                     <a class="nav-link fw-bold" href="#technologies">Technologies</a>
                 </li>
@@ -26,6 +43,7 @@
                 </li>
             </ul>
         </div>
+
 
         <!-- Right: Login button -->
         <div class="d-none d-lg-block nav-login">
