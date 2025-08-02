@@ -31,9 +31,17 @@ class MainController extends Controller
     {
         return view('aboutus');
     }
+    public function customwebdevelopment()
+    {
+        return view('custome-web-development');
+    }
     public function webdevelopment()
     {
         return view('web-development');
+    }
+    public function appdevelopment()
+    {
+        return view('app-development');
     }
     public function uiuxdesign()
     {

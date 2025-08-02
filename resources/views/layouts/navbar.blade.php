@@ -21,12 +21,13 @@
                         Services
                     </a>
                     <ul class="dropdown-menu text-start text-light" aria-labelledby="servicesDropdown">
-                        <li><a class="dropdown-item text-light" href="{{ route('comming-soon') }}">Web Development</a>
-                        </li>
-                        <li><a class="dropdown-item text-light" href="{{ route('comming-soon') }}">Mobile App
+                        <li><a class="dropdown-item text-light" href="{{ route('web-development') }}">Web
                                 Development</a>
                         </li>
-                        <li><a class="dropdown-item text-light" href="{{ route('web-development') }}">Custom
+                        <li><a class="dropdown-item text-light" href="{{ route('app-development') }}">Mobile App
+                                Development</a>
+                        </li>
+                        <li><a class="dropdown-item text-light" href="{{ route('custome-web-development') }}">Custom
                                 Software</a></li>
                         <li><a class="dropdown-item text-light" href="{{ route('uiux-design') }}">UI/UX Design</a></li>
                     </ul>
@@ -69,19 +70,26 @@
     <div class="offcanvas-body">
         <ul class="navbar-nav text-uppercase py-5">
             <li class="nav-item">
-                <a class="nav-link fw-bold py-3" href="{{ route('aboutus') }}">About Us</a>
+                <a class="nav-link fw-bold py-2" href="{{ route('aboutus') }}">About Us</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link fw-bold py-2" href="{{ route('web-development') }}">Web Development</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link fw-bold py-3" href="{{ route('web-development') }}">Services</a>
+                <a class="nav-link fw-bold py-2" href="{{ route('app-development') }}">Mobile App Development</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link fw-bold py-3" href="{{ route('technology') }}">Technologies</a>
+                <a class="nav-link fw-bold py-2" href="{{ route('custome-web-development') }}">Custom Software</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link fw-bold py-3" href="{{ route('faq') }}">FAQ</a>
+                <a class="nav-link fw-bold py-2" href="{{ route('uiux-design') }}">UI/UX Design</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link fw-bold py-3" href="{{ route('contact-us') }}">Contact</a>
+                <a class="nav-link fw-bold py-2" href="{{ route('faq') }}">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link fw-bold py-2" href="{{ route('contact-us') }}">Contact</a>
             </li>
         </ul>
     </div>

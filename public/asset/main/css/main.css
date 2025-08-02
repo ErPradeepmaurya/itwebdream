@@ -13,14 +13,14 @@ body {
 }
 
 section {
-    padding: 30px 0;
+    padding: 40px 0;
 }
 
 .float {
     position: fixed;
     width: 60px;
     height: 60px;
-    bottom: 40px;
+    bottom: 140px;
     right: 40px;
     background-color: #1826EE;
     color: #FFF;
@@ -390,8 +390,8 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #1826EE;
-    text-shadow: 0 3px 0px rgb(255, 255, 255);
+    color: #fff;
+    text-shadow: 0 3px 0px rgb(13, 0, 255);
     overflow: hidden;
     border-radius: 10px;
     /* Ensure pseudo-element stays inside */

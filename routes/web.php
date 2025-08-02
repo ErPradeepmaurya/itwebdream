@@ -11,7 +11,9 @@ Route::get('terms-conditions', [MainController::class, 'termsconditions'])->name
 Route::get('privacy-policy', [MainController::class, 'privacypolicy'])->name('privacy-policy');
 Route::get('faq', [MainController::class, 'faq'])->name('faq');
 Route::get('about-us', [MainController::class, 'aboutus'])->name('aboutus');
-Route::get('custom-doftware-development', [MainController::class, 'webdevelopment'])->name('web-development');
+Route::get('custom-sdoftware-development', [MainController::class, 'customwebdevelopment'])->name('custome-web-development');
+Route::get('website-development', [MainController::class, 'webdevelopment'])->name('web-development');
+Route::get('app-development', [MainController::class, 'appdevelopment'])->name('app-development');
 Route::get('UI-UX-Design', [MainController::class, 'uiuxdesign'])->name('uiux-design');
 Route::get('comming-soon', [MainController::class, 'commingsoon'])->name('comming-soon');
 Route::get('technology', [MainController::class, 'technology'])->name('technology');

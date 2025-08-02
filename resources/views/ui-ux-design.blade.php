@@ -120,7 +120,7 @@
                         stunning designs.</p>
                 </div>
                 <div class="row g-2 text-center">
-                    @foreach (range(1, 12) as $index)
+                    @foreach (range(1, 14) as $index)
                         <div class="col-md-3 col-6">
                             <div class="p-2 border rounded-3 technology-shadow img-container">
                                 <img src="{{ asset('asset/main/image/design/temp-' . $index . '.png') }}"

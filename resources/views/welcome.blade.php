@@ -356,8 +356,8 @@
             <div class="timeline-item">
                 <div class="timeline-icon">1</div>
                 <div class="timeline-item-left">
-                    <img src="https://media.giphy.com/media/3ohs4Cq8R8Xe2zo1tK/giphy.gif" alt="Planning"
-                        class="timeline-image">
+                    <img src="{{ asset('asset/main/image/rm-icon/web-1.png') }}" alt="Planning"
+                        class="timeline-image border border-primary p-1">
                     <div class="timeline-title">Planning</div>
                     <div class="timeline-description">Understanding client requirements and building a solid roadmap.
                     </div>
@@ -368,8 +368,8 @@
             <div class="timeline-item">
                 <div class="timeline-icon">2</div>
                 <div class="timeline-item-right">
-                    <img src="https://media.giphy.com/media/3o7abldj0b3rxrZUxW/giphy.gif" alt="Analysis"
-                        class="timeline-image">
+                    <img src="{{ asset('asset/main/image/rm-icon/web-8.gif') }}" alt="Analysis"
+                        class="timeline-image border border-primary p-1">
                     <div class="timeline-title">Analysis</div>
                     <div class="timeline-description">Deep technical and market research to define scope and features.
                     </div>
@@ -380,8 +380,8 @@
             <div class="timeline-item">
                 <div class="timeline-icon">3</div>
                 <div class="timeline-item-left">
-                    <img src="https://media.giphy.com/media/3o7abldj0b3rxrZUxW/giphy.gif" alt="Design"
-                        class="timeline-image">
+                    <img src="{{ asset('asset/main/image/rm-icon/web-7.png') }}" alt="Design"
+                        class="timeline-image border border-primary p-1">
                     <div class="timeline-title">Design</div>
                     <div class="timeline-description">Creating wireframes, mockups, and interactive UX/UI interfaces.
                     </div>
@@ -393,7 +393,7 @@
                 <div class="timeline-icon">4</div>
                 <div class="timeline-item-right">
                     <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" alt="Implementation"
-                        class="timeline-image">
+                        class="timeline-image border border-primary p-1">
                     <div class="timeline-title">Implementation</div>
                     <div class="timeline-description">Frontend and backend development by expert engineers.</div>
                 </div>
@@ -403,8 +403,8 @@
             <div class="timeline-item">
                 <div class="timeline-icon">5</div>
                 <div class="timeline-item-left">
-                    <img src="https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif" alt="Testing"
-                        class="timeline-image">
+                    <img src="{{ asset('asset/main/image/rm-icon/web-4.png') }}" alt="Testing"
+                        class="timeline-image border border-primary p-1">
                     <div class="timeline-title">Testing</div>
                     <div class="timeline-description">QA engineers run multiple test cases to ensure bug-free release.
                     </div>
@@ -415,9 +415,9 @@
             <div class="timeline-item">
                 <div class="timeline-icon">6</div>
                 <div class="timeline-item-right">
-                    <img src="https://media.giphy.com/media/5t9wJjyHAOxvnDnTk3/giphy.gif" alt="Deployment"
-                        class="timeline-image">
-                    <div class="timeline-title">Deployment</div>
+                    <img src="{{ asset('asset/main/image/rm-icon/web-2.png') }}" alt="Deployment"
+                        class="timeline-image border border-primary">
+                    <div class="timeline-title p-1">Deployment</div>
                     <div class="timeline-description">Project goes live to the server with backup and security
                         measures.</div>
                 </div>
@@ -427,8 +427,8 @@
             <div class="timeline-item">
                 <div class="timeline-icon">7</div>
                 <div class="timeline-item-left">
-                    <img src="https://media.giphy.com/media/fwbZnTftCXVocKzfxR/giphy.gif" alt="Maintenance"
-                        class="timeline-image">
+                    <img src="{{ asset('asset/main/image/rm-icon/web-5.png') }}" alt="Maintenance"
+                        class="timeline-image border border-primary p-1">
                     <div class="timeline-title">Maintenance</div>
                     <div class="timeline-description">Ongoing support, monitoring, and enhancement post-launch.</div>
                 </div>
