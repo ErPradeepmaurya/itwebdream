@@ -1,0 +1,192 @@
+header,
+footer {
+    background-color: #ffffff;
+    padding: 15px 30px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+h1 {
+    margin: 0;
+    color: #1826EE;
+}
+
+.comma-saprator {
+    padding: 4px 60px;
+}
+
+.comma-saprator p {
+    margin-top: 10px;
+}
+
+.comma-saprator b {
+    color: #1826EE;
+}
+
+.maincontainer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.panel {
+    width: 40%;
+    position: relative;
+}
+
+.panel textarea {
+    width: 100%;
+    height: 400px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 14px;
+    resize: vertical;
+    border-radius: 3px solid #1826EE;
+    border-radius: 5px
+}
+
+.line-numbers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    text-align: right;
+    padding-right: 5px;
+    background: #f1f1f1;
+    font-family: monospace;
+    font-size: 14px;
+    color: #1826EE;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 3px
+}
+
+.controls {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controls select,
+.controls button {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.controls select {
+    background: #1826EE;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.convert {
+    background: #1826EE;
+    border-radius: 5px;
+}
+
+.reverse {
+    background: #1826EE;
+    border-radius: 5px;
+}
+
+.clear {
+    background: #e74c3c;
+    border-radius: 5px;
+}
+
+footer {
+    border-top: 1px solid #e0e0e0;
+}
+
+.line-numbers div {
+    height: 1.2em;
+    line-height: 1.2em;
+}
+
+/* Medium screens (tablets, 768px and up) */
+@media (max-width: 991.98px) {
+    .maincontainer {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .panel {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .controls {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .controls select,
+    .controls button {
+        width: auto;
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    .panel textarea {
+        height: 300px;
+        font-size: 13px;
+    }
+
+    .line-numbers {
+        font-size: 13px;
+    }
+}
+
+/* Small screens (phones, 576px and down) */
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    .panel textarea {
+        height: 250px;
+        padding-left: 35px;
+    }
+
+    .line-numbers {
+        width: 25px;
+        font-size: 12px;
+        padding-right: 3px;
+    }
+
+    .controls select,
+    .controls button {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .maincontainer {
+        padding: 10px;
+    }
+
+    .comma-saprator {
+        padding: 1px;
+    }
+
+    .comma-saprator p {
+        margin-top: 10px;
+        text-align: justify;
+    }
+
+    .comma-saprator b {
+        color: #1826EE;
+    }
+
+}

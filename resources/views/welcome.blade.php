@@ -435,4 +435,160 @@
             </div>
         </div>
     </section>
+
+
+
+
+    <section>
+        <div class="container">
+            <h2 class="text-center mb-4">Our Customre Reviews</h2>
+            <div id="reviewCarousel" class="carousel slide position-relative" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Review 1 -->
+                    <div class="carousel-item active">
+                        <div class="review-card text-center mx-auto" style="max-width: 600px;">
+                            <h5>Arpit Tiwari</h5>
+                            <div class="star-rating mb-2">★★★★★</div>
+                            <div class="text-muted mb-2">Lucknow, Utttar-Pradesh</div>
+                            <p><strong>"</strong>The team delivered an exceptional e-commerce website with professionalism
+                                and experience. They captured our vision, built a user-friendly, secure, and responsive
+                                platform, and met all deadlines. Communication was seamless, and the result greatly
+                                enhanced our online
+                                presence and sales. Highly recommended for anyone needing a modern e-commerce
+                                solution.<strong>"</strong>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review 2 -->
+                    <div class="carousel-item">
+                        <div class="review-card text-center mx-auto" style="max-width: 600px;">
+                            <h5>Sandeep Kumar</h5>
+                            <div class="star-rating mb-2">★★★★★</div>
+                            <div class="text-muted mb-2">Delhi NCR</div>
+                            <p><strong>"</strong>The team delivered a dynamic online shop management portal with features
+                                like product tracking, order processing, inventory control, and user-friendly dashboards.
+                                It’s responsive, secure, and easy to manage. Perfectly tailored to streamline daily
+                                operations and boost efficiency. A reliable solution for managing online stores
+                                effortlessly. Highly recommended!<strong>"</strong>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="review-card text-center mx-auto" style="max-width: 600px;">
+                            <h5>Azam Khan</h5>
+                            <div class="star-rating mb-2">★★★★★</div>
+                            <div class="text-muted mb-2">Bengaluru, India</div>
+                            <p><strong>"</strong> We built a fast-loading, professional website that showcases our service
+                                offerings perfectly.Throughout the process, everything was tailored to our needs, from the
+                                layout to the functionality.The mobile-friendly website is easy to manage, enhances client
+                                engagement, and is mobile-friendly.<strong>"</strong>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="review-card text-center mx-auto" style="max-width: 600px;">
+                            <h5>Vibhoj</h5>
+                            <div class="star-rating mb-2">★★★★★</div>
+                            <div class="text-muted mb-2">Lucknow, Utttar-Pradesh</div>
+                            <p><strong>"</strong>They built a powerful gold jewellery e-commerce platform with
+                                multi-dashboard access, secure logins, inventory management, and invoicing. The system is
+                                seamless, secure, and user-friendly. It’s tailored for both admins and vendors, enhancing
+                                control and efficiency. A complete solution for modern jewellery businesses. Highly
+                                recommended for robust e-commerce needs!<strong>"</strong>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="review-card text-center mx-auto" style="max-width: 600px;">
+                            <h5>Manvendra Singh</h5>
+                            <div class="star-rating mb-2">★★★★★</div>
+                            <div class="text-muted mb-2">Kanpur, Utttar-Pradesh</div>
+                            <p><strong>"</strong>Developed a robust university portal with multi-college logins,
+                                student record management, and role-based dashboards for admins, faculty, and students. The
+                                platform is scalable, secure, and simplifies academic operations. Custom-built to meet
+                                institutional needs, it enhances data access, communication, and efficiency. Ideal for
+                                modern educational institutions and universities.
+                                <strong>"</strong>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="review-card text-center mx-auto" style="max-width: 600px;">
+                            <h5>Vibhoj</h5>
+                            <div class="star-rating mb-2">★★★★★</div>
+                            <div class="text-muted mb-2">Lucknow, Utttar-Pradesh</div>
+                            <p><strong>"</strong>They built a feature-rich real estate portal with property listings,
+                                advanced search filters, agent logins, and inquiry management. The design is modern,
+                                responsive, and user-focused. It simplifies property browsing and lead generation. An ideal
+                                platform for realtors and agencies seeking a professional online presence. Excellent work
+                                and timely delivery!
+                                <strong>"</strong>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="review-card text-center mx-auto" style="max-width: 600px;">
+                            <h5>Piyush Mishra</h5>
+                            <div class="star-rating mb-2">★★★★★</div>
+                            <div class="text-muted mb-2">Lucknow, Utttar-Pradesh</div>
+                            <p><strong>"</strong>They developed a modern coaching center portal with dashboards for students
+                                and teachers, managing admissions, fees, attendance, and performance. The system is
+                                intuitive, secure, and streamlines daily operations. It greatly improves communication and
+                                tracking. A complete solution for coaching institutes seeking efficient digital management.
+                                Delivered on time with precision!<strong>"</strong>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="review-card text-center mx-auto" style="max-width: 600px;">
+                            <h5>Dr. Pradeep Mishra</h5>
+                            <div class="star-rating mb-2">★★★★★</div>
+                            <div class="text-muted mb-2">Lucknow, Utttar-Pradesh</div>
+                            <div class="text-muted mb-2">They built a comprehensive hospital management portal with modules
+                                for patient records, appointments, billing, staff management, and reports. The system is
+                                secure, efficient, and easy to use. It streamlines hospital operations and enhances patient
+                                care. A reliable solution for modern healthcare needs. Delivered professionally and on
+                                schedule<strong>"</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="review-card text-center mx-auto" style="max-width: 600px;">
+                            <h5>Rahul Maurya </h5>
+                            <div class="star-rating mb-2">★★★★★</div>
+                            <div class="text-muted mb-2">Panjab</div>
+                            <div class="text-muted mb-2">They developed a full-featured e-commerce portal with product
+                                management, secure checkout, user accounts, order tracking, inventory control, and admin
+                                dashboard. The design is sleek, responsive, and optimized for performance. It offers a
+                                seamless shopping experience. A complete solution for launching and scaling online stores.
+                                Highly reliable and well-executed work!<strong>"</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carousel Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#reviewCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#reviewCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
+                </div>
+            </div>
+    </section>
 @endsection

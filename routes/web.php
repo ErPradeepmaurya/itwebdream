@@ -25,7 +25,7 @@ Route::get('contact-us', [MainController::class, 'contactus'])->name('contact-us
 Route::get('sitemap.xml', [MainController::class, 'sitemap'])->name('sitemap');
 
 // Route::get('free-comma-separator-tool', [FreeCommaController::class, 'FreeCommaController'])->name('FreeComma.freecommatool');
-Route::get('/free-comma-separator-tool', [FreeCommaController::class, 'FreeCommaController'])->name('FreeComma.freecommatool');
+Route::get('/online-free-comma-separator-tool', [FreeCommaController::class, 'FreeCommaController'])->name('FreeComma.freecommatool');
 Route::post('/process', [FreeCommaController::class, 'process'])->name('process');
 
 // Route::get('/check-db', function () {
