@@ -29,84 +29,112 @@
                     <h2 class="mb-4 text-center">Industries We Serve</h2>
                     <div class="row gy-4">
                         <!-- Education -->
-                        <div class="col-md-6">
-                            <h4><i class="fas fa-check text-primary me-2"></i> Education Sector (Schools & Universities)
-                            </h4>
-                            <p>
-                                Our education-focused web solutions offer robust features such as online application
-                                systems, student dashboards, faculty directories, course listings, event calendars, and
-                                integration with leading <strong>LMS (Learning Management Systems)</strong>. We build
-                                intuitive, content-rich platforms that enhance learning experiences and support academic
-                                administration.
-                            </p>
+                        <div class="col-md-6 mt-2">
+                            <div class="technology-shadow animate-shadow">
+                                <h4><i class="fas fa-check text-primary me-2"></i> Education Sector (Schools & Universities)
+                                </h4>
+                                <p>
+                                    Our education-focused web solutions offer robust features such as online application
+                                    systems, student dashboards, faculty directories, course listings, event calendars, and
+                                    integration with leading <strong>LMS (Learning Management Systems)</strong>. We build
+                                    intuitive, content-rich platforms that enhance learning experiences and support academic
+                                    administration.
+                                </p>
+                            </div>
                         </div>
 
                         <!-- Healthcare -->
-                        <div class="col-md-6">
-                            <h4><i class="fas fa-check text-primary me-2"></i> Healthcare Industry (Hospitals & Clinics)
-                            </h4>
-                            <p>
-                                We create secure, user-friendly websites for <strong>hospitals and healthcare
-                                    facilities</strong> featuring doctor profiles, patient login systems, appointment
-                                scheduling, telemedicine integration, and health blogs. All our healthcare sites are built
-                                with privacy compliance (HIPAA-ready) and a focus on accessibility and patient experience.
-                            </p>
+                        <div class="col-md-6 mt-2">
+                            <div class="technology-shadow animate-shadow">
+                                <h4><i class="fas fa-check text-primary me-2"></i> Healthcare Industry (Hospitals & Clinics)
+                                </h4>
+                                <p>
+                                    We create secure, user-friendly websites for <strong>hospitals and healthcare
+                                        facilities</strong> featuring doctor profiles, patient login systems, appointment
+                                    scheduling, telemedicine integration, and health blogs. All our healthcare sites are
+                                    built
+                                    with privacy compliance (HIPAA-ready) and a focus on accessibility and patient
+                                    experience.
+                                </p>
+                            </div>
                         </div>
 
                         <!-- eCommerce -->
-                        <div class="col-md-6">
-                            <h4><i class="fas fa-check text-primary me-2"></i> eCommerce Website Development</h4>
-                            <p>
-                                Our expert eCommerce development services cater to both startups and enterprise retailers.
-                                From product catalog design and inventory management to payment gateway integration and
-                                marketing automation, we deliver fully functional <strong>eCommerce websites</strong> that
-                                boost customer retention and online sales while remaining SEO and mobile optimized.
-                            </p>
+                        <div class="col-md-6 mt-2">
+                            <div class="technology-shadow animate-shadow">
+                                <h4><i class="fas fa-check text-primary me-2"></i> eCommerce Website Development</h4>
+                                <p>
+                                    Our expert eCommerce development services cater to both startups and enterprise
+                                    retailers.
+                                    From product catalog design and inventory management to payment gateway integration and
+                                    marketing automation, we deliver fully functional <strong>eCommerce websites</strong>
+                                    that
+                                    boost customer retention and online sales while remaining SEO and mobile optimized.
+                                </p>
+                            </div>
                         </div>
 
                         <!-- CRM -->
-                        <div class="col-md-6">
-                            <h4><i class="fas fa-check text-primary me-2"></i> Customer Relationship Management (CRM)</h4>
-                            <p>
-                                We develop CRM-powered platforms that streamline customer data, sales workflows, and support
-                                processes. Our custom-built CRM websites provide dynamic dashboards, real-time analytics,
-                                client tracking, and third-party integrations that elevate operational efficiency and
-                                business intelligence.
-                            </p>
+                        <div class="col-md-6 mt-2">
+                            <div class="technology-shadow animate-shadow">
+                                <h4><i class="fas fa-check text-primary me-2"></i> Customer Relationship Management (CRM)
+                                </h4>
+                                <p>
+                                    We develop CRM-powered platforms that streamline customer data, sales workflows, and
+                                    support
+                                    processes. Our custom-built CRM websites provide dynamic dashboards, real-time
+                                    analytics,
+                                    client tracking, and third-party integrations that elevate operational efficiency and
+                                    business intelligence.
+                                </p>
+                            </div>
                         </div>
 
                         <!-- LMS -->
-                        <div class="col-md-6">
-                            <h4><i class="fas fa-check text-primary me-2"></i> Learning Management Systems (LMS)</h4>
-                            <p>
-                                Whether for academic institutions or corporate training, our LMS development includes course
-                                creation, user registration, multimedia lessons, quizzes, certification systems, and
-                                progress tracking. We ensure SCORM compliance and seamless mobile access for modern learning
-                                needs.
-                            </p>
+                        <div class="col-md-6 mt-2">
+                            <div class="technology-shadow animate-shadow">
+                                <h4><i class="fas fa-check text-primary me-2"></i> Learning Management Systems (LMS)</h4>
+                                <p>
+                                    Whether for academic institutions or corporate training, our LMS development includes
+                                    course
+                                    creation, user registration, multimedia lessons, quizzes, certification systems, and
+                                    progress tracking. We ensure SCORM compliance and seamless mobile access for modern
+                                    learning
+                                    needs.
+                                </p>
+                            </div>
                         </div>
 
                         <!-- Real Estate -->
-                        <div class="col-md-6">
-                            <h4><i class="fas fa-check text-primary me-2"></i> Real Estate Solutions</h4>
-                            <p>
-                                For realtors and property developers, we build feature-rich <strong>real estate
-                                    websites</strong> with advanced property filters, map integrations, virtual tours, lead
-                                capture forms, and automated listing updates. Our designs emphasize visual appeal, mobile
-                                compatibility, and lead generation.
-                            </p>
+                        <div class="col-md-6 mt-2">
+                            <div class="technology-shadow animate-shadow">
+                                <h4><i class="fas fa-check text-primary me-2"></i> Real Estate Solutions</h4>
+                                <p>
+                                    For realtors and property developers, we build feature-rich <strong>real estate
+                                        websites</strong> with advanced property filters, map integrations, virtual tours,
+                                    lead
+                                    capture forms, and automated listing updates. Our designs emphasize visual appeal,
+                                    mobile
+                                    compatibility, and lead generation.
+                                </p>
+                            </div>
                         </div>
 
                         <!-- Ticket Booking -->
-                        <div class="col-md-6">
-                            <h4><i class="fas fa-check text-primary me-2"></i> Online Ticket Booking Platforms (Bus, Events,
-                                Travel)</h4>
-                            <p>
-                                We develop high-performance <strong>ticket booking websites</strong> with features such as
-                                seat reservation, real-time availability, payment integration, route management, and
-                                multi-device compatibility. Ideal for bus operators, travel agencies, and event organizers
-                                looking to scale online bookings.
-                            </p>
+                        <div class="col-md-6 mt-2">
+                            <div class="technology-shadow animate-shadow">
+                                <h4><i class="fas fa-check text-primary me-2"></i> Online Ticket Booking Platforms (Bus,
+                                    Events,
+                                    Travel)</h4>
+                                <p>
+                                    We develop high-performance <strong>ticket booking websites</strong> with features such
+                                    as
+                                    seat reservation, real-time availability, payment integration, route management, and
+                                    multi-device compatibility. Ideal for bus operators, travel agencies, and event
+                                    organizers
+                                    looking to scale online bookings.
+                                </p>
+                            </div>
                         </div>
 
                     </div>
