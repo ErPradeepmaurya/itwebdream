@@ -13,18 +13,16 @@
                 </div>
                 <!-- Intro Section -->
                 <section class="container">
-                    <p>
+                    <p class="lead text-muted mt-3">
                         In today’s mobile-first landscape, having a robust mobile app is vital for businesses. At
-                        <strong>itwebdream</strong>, we develop high-performance, secure, and user-friendly apps for
+                        itwebdream, we develop high-performance, secure, and user-friendly apps for
                         both <strong>Android</strong> and <strong>iOS platforms</strong>, tailored to your unique
-                        requirements.
-                    </p>
-                    <p>
+                        requirements.<br>
                         From startups to enterprises, our mobile app development services help businesses innovate, engage,
                         and scale across devices and platforms.
                     </p>
 
-                    <h2 class="fw-bold text-center py-5">Our Mobile App Development Services</h2>
+                    <h2 class="fw-bold text-center py-3">Our Mobile App Development Services</h2>
                     <div class="row g-4">
                         <div class="col-md-6">
                             <h4><i class="fas fa-check-circle text-primary me-2"></i> Android App Development</h4>

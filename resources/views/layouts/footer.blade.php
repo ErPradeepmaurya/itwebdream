@@ -86,7 +86,7 @@
     </div>
 </footer>
 <script>
-    const user = "pusmaurya4";
+    const user = "itwebdream";
     const domain = "gmail.com";
     const email = user + "@" + domain;
     document.getElementById("email").innerHTML = `<a href="mailto:${email}">${email}</a>`;

@@ -14,15 +14,13 @@
                 <!-- About Section -->
                 <section class="container">
                     <h2 class="mb-4 text-center text-dark">Elevate Your Digital Presence with Custom Website Solutions</h2>
-                    <p>
+                    <p class="lead text-muted mt-3">
                         In an era dominated by digital interaction, your website serves as the front door to your brand. At
-                        <strong>itwebdream</strong>, we specialize in <strong>professional website design and
+                        itwebdream, we specialize in <strong>professional website design and
                             development</strong> tailored to meet the distinct demands of various industries. From aesthetic
                         front-end interfaces to powerful, scalable backend systems, our team of designers and developers
                         crafts websites that are secure, mobile-optimized, SEO-ready, and strategically aligned with your
-                        business goals.
-                    </p>
-                    <p>
+                        business goals.<br>
                         Whether you're building an online marketplace, launching a school portal, or managing appointments
                         in a hospital, our holistic web development services ensure that your digital solution not only
                         looks exceptional but performs seamlessly across all devices and platforms.
@@ -114,7 +112,7 @@
                     </div>
 
                     <h2 class="text-center mt-2 mb-2">Built with SEO and Performance in Mind</h2>
-                    <p>
+                    <p class="lead text-muted mt-1">
                         Our <strong>website design and development process</strong> integrates the latest SEO practices from
                         the ground up. We focus on:
                     </p>
@@ -126,7 +124,7 @@
                         <li>Secure HTTPS protocols and modern codebases</li>
                         <li>Clean URL structure and user-friendly navigation</li>
                     </ul>
-                    <p>
+                    <p class="lead text-muted mt-1">
                         Our team ensures that every website we deliver is fully optimized for search engines and user
                         experience, helping you gain visibility, attract traffic, and convert leads.
                     </p>

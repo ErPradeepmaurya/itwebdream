@@ -21,7 +21,8 @@
                 <div class="row mb-5">
                     <div class="col-12">
                         <h4 class="fw-bold text-center">Why UI/UX Design Matters</h4>
-                        <p>UI/UX design directly impacts user satisfaction, retention, and conversion. A well-designed UI
+                        <p class="lead text-muted mt-3">UI/UX design directly impacts user satisfaction, retention, and
+                            conversion. A well-designed UI
                             (User Interface) captures attention, while UX (User Experience) ensures seamless navigation and
                             interaction. At <strong>IT Web Dream</strong>, our UI/UX design services are tailored to blend
                             aesthetics with function, creating websites and apps that are not only beautiful but also highly
