@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="{{ asset('asset/freecomma/style.css') }}">
     <link rel="stylesheet" href="{{ asset('asset/main/css/main.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 </head>
 
 <body>

@@ -1,5 +1,5 @@
 <!-- Contact Section -->
-<section id="contact" class="bg-light mb-5">
+<section id="contact" class="mb-5">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-12 text-center">
@@ -53,6 +53,66 @@
     </div>
 </section>
 
+<footer class="footer-copyright">
+    <div class="container text-md-left">
+        <div class="row">
+            <!-- Services -->
+            <div class="col-md-4 col-lg-3 col-xl-2 col-6 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-3">Our Services</h6>
+                <ul class="list-unstyled">
+                    <li><a href="{{ route('web-development') }}" class="text-decoration-none d-block py-1">Web
+                            Development</a></li>
+                    <li><a href="{{ route('app-development') }}" class="text-decoration-none d-block py-1">Mobile App
+                            Development</a></li>
+                    <li><a href="{{ route('custome-web-development') }}"
+                            class="text-decoration-none d-block py-1">Custom Software</a></li>
+                    <li><a href="{{ route('uiux-design') }}" class="text-decoration-none d-block py-1">UI/UX
+                            Design</a></li>
+                </ul>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-md-4 col-lg-3 col-xl-2 col-6 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-3">Quick Links</h6>
+                <ul class="list-unstyled">
+                    <li><a href="{{ route('welcome') }}" class="text-decoration-none d-block py-1">Home</a></li>
+                    <li><a href="{{ route('aboutus') }}" class="text-decoration-none d-block py-1">About Us</a></li>
+                    <li><a href="{{ route('faq') }}" class="text-decoration-none d-block py-1">FAQ</a></li>
+                    <li><a href="{{ route('technology') }}" class="text-decoration-none d-block py-1">Technology</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-2 col-6 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-3">Finance Tool</h6>
+                <ul class="list-unstyled">
+                    <li><a href="{{ route('FreeComma.emicalculator') }}"
+                            class="text-decoration-none d-block py-1">Online
+                            Emi Calculator</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-2 col-6 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-3">Developer Tool</h6>
+                <ul class="list-unstyled">
+                    <li><a href="{{ route('FreeComma.freecommatool') }}" class="text-decoration-none d-block py-1">Comma
+                            Separator Tool</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-around border-top border-secondary">
+        <p class="text-dark fw-bold">&copy; {{ date('Y') }} ITWEBDREAM Software Solutions. All rights
+            reserved.
+        </p>
+        <p class="text-dark"><a href="{{ route('terms-conditions') }}" class="text-dark mb-0">Terms &
+                Conditions</a> |
+            <a href="{{ route('privacy-policy') }}" class="text-dark mb-0">Privacy Policy</a>
+        </p>
+    </div>
+</footer>
+
+
 <a href="https://api.whatsapp.com/send?phone=8707579029" class="float" target="_blank">
     <i class="fa fa-whatsapp my-float"></i>
 </a>
@@ -68,7 +128,7 @@
         box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
     }
 </style>
-<footer class="footer-copyright py-2 mt-5 fixed-footer">
+{{-- <footer class="py-2 mt-5 fixed-footer">
     <div class="container">
         <div class="row">
             <div class="col-md-6 text-center text-md-start">
@@ -84,7 +144,7 @@
             </div>
         </div>
     </div>
-</footer>
+</footer> --}}
 <script>
     const user = "itwebdream";
     const domain = "gmail.com";

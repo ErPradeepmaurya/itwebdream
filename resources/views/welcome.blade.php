@@ -6,7 +6,7 @@
             <h3>Innovative web and software solutions, built for you</h3>
             <p>Our innovative, tailored web and software solutions streamline operations, enhance user experiences, and
                 drive business growth.</p>
-            <a href="#tech-stack" class="btn">View Full Stack</a>
+            <a href="#technologies" class="btn">View Full Stack</a>
         </div>
 
         <!-- Floating Tech Icons -->

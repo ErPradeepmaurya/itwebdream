@@ -19,8 +19,9 @@ Route::get('comming-soon', [MainController::class, 'commingsoon'])->name('commin
 Route::get('technology', [MainController::class, 'technology'])->name('technology');
 Route::get('contact-us', [MainController::class, 'contactus'])->name('contact-us');
 Route::get('sitemap.xml', [MainController::class, 'sitemap'])->name('sitemap');
-// Route::get('free-comma-separator-tool', [FreeCommaController::class, 'FreeCommaController'])->name('FreeComma.freecommatool');
-Route::get('/online-free-comma-separator-tool', [FreeCommaController::class, 'FreeCommaController'])->name('FreeComma.freecommatool');
+Route::get('online-free-comma-separator-tool', [FreeCommaController::class, 'FreeCommaController'])->name('FreeComma.freecommatool');
+Route::get('emi-calculator', [FreeCommaController::class, 'emicalculator'])->name('FreeComma.emicalculator');
+
 Route::post('/process', [FreeCommaController::class, 'process'])->name('process');
 
 // Route::get('/check-db', function () {

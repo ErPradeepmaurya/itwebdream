@@ -11,4 +11,9 @@ class FreeCommaController extends Controller
     {
         return view('FreeComma.freecommatool');
     }
+
+    public function emicalculator()
+    {
+        return view('FreeComma.emicalculator');
+    }
 }
