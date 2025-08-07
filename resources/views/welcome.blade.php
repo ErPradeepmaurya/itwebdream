@@ -1,11 +1,12 @@
 @extends('layouts.app')
-@section('title', 'Top Custom Web & Software Development Services in India')
+@section('title', 'India’s Best Web Design & Software Development Company')
 @section('content')
     <section class="integration-banner mt-1">
         <div class="content-container text-dark">
-            <h3>Innovative web and software solutions, built for you</h3>
-            <p>Our innovative, tailored web and software solutions streamline operations, enhance user experiences, and
-                drive business growth.</p>
+            <h3>India’s Best Web Design & Software Development Company</h3>
+            <p>India’s best web design and software development company helping businesses grow with custom websites,
+                scalable software, and digital solutions that boost visibility, increase engagement, and drive success.
+            </p>
             <a href="#technologies" class="btn">View Full Stack</a>
         </div>
 
@@ -44,13 +45,15 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12 text-center mt-4">
-                    <p class="lead text-muted">Elevate your business with exceptional software development services from a
-                        team of skilled
-                        professionals who can adapt to modern technology and drive growth. Collaborate with Indian
-                        software development companies for a competitive edge.<br> Their expertise in flawless software
-                        development will enhance your business revenue.<br> We provide customizable software solutions for
-                        various needs, including design, development, testing, legacy application migration, product
-                        development, and more.
+                    <p class="lead text-muted">Elevate your business with exceptional software development services from
+                        itwebdream, a leading Indian software development company. Our team of skilled professionals
+                        leverages modern technologies to deliver innovative, scalable, and high-performing software
+                        solutions tailored to your unique needs. Whether you require custom software design, development,
+                        testing, legacy application migration, or full-cycle product development, itwebdream ensures
+                        flawless execution and measurable results. By partnering with us, you gain a competitive edge in the
+                        market and unlock new opportunities for growth. Our expertise not only enhances your digital
+                        presence but also drives revenue, efficiency, and long-term success. Choose itwebdream—where your
+                        vision becomes reality.
                     </p>
                 </div>
             </div>
@@ -359,7 +362,9 @@
                     <img src="{{ asset('asset/main/image/rm-icon/web-1.png') }}" alt="Planning"
                         class="timeline-image border border-primary p-1">
                     <div class="timeline-title">Planning</div>
-                    <div class="timeline-description">Understanding client requirements and building a solid roadmap.
+                    <div class="timeline-description">Understanding client requirements is key to delivering successful
+                        solutions. We analyze goals, identify challenges, and build a clear, strategic roadmap that ensures
+                        project alignment, efficiency, and long-term success.
                     </div>
                 </div>
             </div>
@@ -371,7 +376,9 @@
                     <img src="{{ asset('asset/main/image/rm-icon/web-8.gif') }}" alt="Analysis"
                         class="timeline-image border border-primary p-1">
                     <div class="timeline-title">Analysis</div>
-                    <div class="timeline-description">Deep technical and market research to define scope and features.
+                    <div class="timeline-description">We conduct in-depth technical and market research to define the
+                        project’s scope and features accurately, ensuring the solution is innovative, relevant, and aligned
+                        with current trends and user needs.
                     </div>
                 </div>
             </div>
@@ -383,7 +390,9 @@
                     <img src="{{ asset('asset/main/image/rm-icon/web-7.png') }}" alt="Design"
                         class="timeline-image border border-primary p-1">
                     <div class="timeline-title">Design</div>
-                    <div class="timeline-description">Creating wireframes, mockups, and interactive UX/UI interfaces.
+                    <div class="timeline-description">We design intuitive wireframes, mockups, and interactive UX/UI
+                        interfaces to visualize the user journey, enhance usability, and ensure a seamless, engaging
+                        experience across all devices before development begins.
                     </div>
                 </div>
             </div>
@@ -395,7 +404,9 @@
                     <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" alt="Implementation"
                         class="timeline-image border border-primary p-1">
                     <div class="timeline-title">Implementation</div>
-                    <div class="timeline-description">Frontend and backend development by expert engineers.</div>
+                    <div class="timeline-description">Our expert engineers handle both frontend and backend development,
+                        delivering robust, scalable, and high-performance solutions with clean code, seamless functionality,
+                        and a focus on user experience and efficiency.</div>
                 </div>
             </div>
 
@@ -406,7 +417,9 @@
                     <img src="{{ asset('asset/main/image/rm-icon/web-4.png') }}" alt="Testing"
                         class="timeline-image border border-primary p-1">
                     <div class="timeline-title">Testing</div>
-                    <div class="timeline-description">QA engineers run multiple test cases to ensure bug-free release.
+                    <div class="timeline-description">Our QA engineers execute comprehensive test cases across multiple
+                        scenarios to identify and resolve bugs, ensuring a stable, high-quality, and flawless product
+                        release that meets all performance and usability standards..
                     </div>
                 </div>
             </div>
@@ -418,8 +431,10 @@
                     <img src="{{ asset('asset/main/image/rm-icon/web-2.png') }}" alt="Deployment"
                         class="timeline-image border border-primary">
                     <div class="timeline-title p-1">Deployment</div>
-                    <div class="timeline-description">Project goes live to the server with backup and security
-                        measures.</div>
+                    <div class="timeline-description">The project is deployed to the live server with complete backup and
+                        advanced security measures, ensuring data integrity, protection against threats, and a smooth,
+                        reliable launch for end users.
+                    </div>
                 </div>
             </div>
 
@@ -430,7 +445,9 @@
                     <img src="{{ asset('asset/main/image/rm-icon/web-5.png') }}" alt="Maintenance"
                         class="timeline-image border border-primary p-1">
                     <div class="timeline-title">Maintenance</div>
-                    <div class="timeline-description">Ongoing support, monitoring, and enhancement post-launch.</div>
+                    <div class="timeline-description">We provide ongoing support, performance monitoring, and continuous
+                        enhancements post-launch to ensure your application remains secure, up-to-date, and aligned with
+                        evolving business goals and user expectations.</div>
                 </div>
             </div>
         </div>
