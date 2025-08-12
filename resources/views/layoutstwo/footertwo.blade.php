@@ -44,6 +44,22 @@
      reserved. | Built with ❤️
  </footer>
  <script src="{{ asset('asset/freecomma/script.js') }}"></script>
+ <script>
+     document.addEventListener("contextmenu", function(e) {
+         e.preventDefault();
+     });
+     document.addEventListener("keydown", function(e) {
+         if (e.key === "F12") {
+             e.preventDefault();
+         }
+         if (e.ctrlKey && e.shiftKey && ["I", "J", "C"].includes(e.key.toUpperCase())) {
+             e.preventDefault();
+         }
+         if (e.ctrlKey && ["U", "S"].includes(e.key.toUpperCase())) {
+             e.preventDefault();
+         }
+     });
+ </script>
  </body>
 
  </html>

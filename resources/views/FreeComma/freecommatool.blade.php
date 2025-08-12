@@ -1,5 +1,5 @@
 @extends('layoutstwo.apptwo')
-@section('title', 'Online free comma separator tool')
+@section('title', 'Free Online Comma Separator Tool')
 @section('contenttwo')
     <section class="px-5">
         <div class="row comma-saprator">

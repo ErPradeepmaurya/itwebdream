@@ -1,12 +1,12 @@
 @extends('layouts.app')
-@section('title', 'India’s Best Web Design & Software Development Company')
+@section('title', 'Web Design and Software Development Company')
 @section('content')
     <section class="integration-banner mt-1">
         <div class="content-container text-dark">
-            <h3>India’s Best Web Design & Software Development Company</h3>
-            <p>India’s best web design and software development company helping businesses grow with custom websites,
-                scalable software, and digital solutions that boost visibility, increase engagement, and drive success.
-            </p>
+            <h3>Website design and software development provided.</h3>
+            <p>"ITWebDream is a business web design and software development company that helps businesses grow with custom
+                websites, scalable software, and digital solutions designed to boost visibility, enhance engagement, and
+                drive results."</p>
             <a href="#technologies" class="btn">View Full Stack</a>
         </div>
 
