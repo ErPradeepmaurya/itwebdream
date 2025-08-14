@@ -10,7 +10,6 @@
                 drive results."</p>
             <a href="#technologies" class="btn">View Full Stack</a>
         </div>
-
         <!-- Floating Tech Icons -->
         <div class="floating-logos">
             <img src="{{ asset('asset/main/image/laravel.png') }}" class="floating-logo" style="top: 10%; left: 10%;">
