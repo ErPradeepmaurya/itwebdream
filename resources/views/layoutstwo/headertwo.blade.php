@@ -6,8 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="{{ asset('asset/main/image/favicon1.png') }}">
-    <meta name="keywords" content="Free Online Comma Separator Tool, ONline Free Comma Separator Tool">
-    <meta name="description" content="Get all your comma separating and online delimiter needs from itwebdream!">
+    <meta name="keywords"
+        content="Free Online Comma Separator Tool, Online Comma Separator & Delimiter Tool, Convert Text to Comma Separated List Online, Free Text Delimiter & Separator Converter, Online Comma, Semicolon, Pipe Separator Tool">
+    <meta name="description"
+        content="Easily separate text with commas, semicolons, pipes, or spaces using our free online comma separator tool. Fast, accurate, and perfect for data formatting">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('asset/freecomma/style.css') }}">
     <link rel="stylesheet" href="{{ asset('asset/main/css/main.css') }}">

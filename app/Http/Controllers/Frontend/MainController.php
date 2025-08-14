@@ -68,4 +68,9 @@ class MainController extends Controller
         $content = view('sitemap')->render();
         return response($content, 200)->header('Content-Type', 'application/xml');
     }
+
+    public function mpwebdevelopment()
+    {
+        return view('mp-web-development');
+    }
 }

@@ -1,20 +1,20 @@
 @extends('layouts.app')
 
-@section('title', 'UI/UX Design Services - IT Web Dream')
+@section('title', 'UI/UX Design Services - itwebdream')
 
 @section('content')
     <section class="py-2 p-2 bg-white">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="web-banner">
-                    <h1 class="display-5 fw-bold text-center mb-5">UI/UX Design Services – IT Web Dream</h1>
+                    <h1 class="display-5 fw-bold text-center mb-5">UI/UX Design Services – itwebdream</h1>
                 </div>
-                <p class="lead text-muted mt-3">At <strong>IT Web Dream</strong>, we specialize in delivering intuitive and
+                <p class="lead text-muted mt-3">At <strong>itwebdream</strong>, we specialize in delivering intuitive and
                     engaging UI/UX design services tailored for diverse industries, including jewellers, eCommerce, service
                     providers, and real estate. Our goal is to enhance the digital experience, reduce bounce rates, and
                     increase user engagement through visually compelling and user-friendly interfaces.</p>
                 <div class="text-center mb-5">
-                    <h2 class="display-5 fw-bold">Expert UI/UX Design Solutions by IT Web Dream</h2>
+                    <h2 class="display-5 fw-bold">Expert UI/UX Design Solutions by itwebdream</h2>
                     <p class="lead text-muted">Elevating digital presence for jewellers, eCommerce, service-based, and real
                         estate businesses with high-performance design strategies.</p>
                 </div>
@@ -24,7 +24,7 @@
                         <p class="lead text-muted mt-3">UI/UX design directly impacts user satisfaction, retention, and
                             conversion. A well-designed UI
                             (User Interface) captures attention, while UX (User Experience) ensures seamless navigation and
-                            interaction. At <strong>IT Web Dream</strong>, our UI/UX design services are tailored to blend
+                            interaction. At <strong>itwebdream</strong>, our UI/UX design services are tailored to blend
                             aesthetics with function, creating websites and apps that are not only beautiful but also highly
                             usable.</p>
                     </div>
@@ -88,7 +88,7 @@
                     </div>
                     <div class="col-sm-6">
                         <div class="p-4 border rounded-3 h-100 technology-shadow">
-                            <h4 class="fw-bold">Why IT Web Dream?</h4>
+                            <h4 class="fw-bold">Why itwebdream?</h4>
                             <p>We combine creativity, strategy, and data to create scalable UI/UX design systems. Our
                                 approach
                                 includes:</p>
@@ -104,7 +104,7 @@
                     <div class="col-sm-6">
                         <div class="p-4 border rounded-3 h-100 technology-shadow">
                             <h5 class="fw-bold">Let’s Build Something Exceptional</h5>
-                            <p>Partner with <strong>IT Web Dream</strong> for tailor-made UI/UX design that enhances trust,
+                            <p>Partner with <strong>itwebdream</strong> for tailor-made UI/UX design that enhances trust,
                                 boosts conversions, and elevates your brand. Whether you're a jeweller, service provider,
                                 eCommerce entrepreneur, or real estate professional, we deliver digital solutions designed
                                 to
@@ -148,7 +148,7 @@
                             <i class="fas fa-shopping-cart tech-icon card border-primary p-2"></i>
                             <h5>Ecommerce Web App Development</h5>
                             <p class="text-muted">Develop scalable eCommerce solutions using Shopify, Magento, and Laravel.
-                                IT Web Dream ensures seamless transactions, optimized UI/UX, and secure platforms for
+                                itwebdream ensures seamless transactions, optimized UI/UX, and secure platforms for
                                 maximum online growth.</p>
                         </div>
                     </div>

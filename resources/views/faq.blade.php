@@ -9,7 +9,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <h1 class="display-5 fw-bold text-center mb-5">Software Development FAQs</h1>
+                    <h1 class="display-5 fw-bold text-center mb-5">Software Development FAQs - itwebdream</h1>
 
                     <h2 class="h4 fw-bold mt-4">What Software Development Services Do You Offer?</h2>
                     <p class="lead text-muted">We provide full-scale services like custom software development, web app

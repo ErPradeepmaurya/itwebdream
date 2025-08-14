@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Technology is used to provide services - ITWEBDREAM')
+@section('title', 'Technology is used to provide services - itwebdream')
 
 
 @section('content')
@@ -9,7 +9,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="web-banner">
-                    <h1 class="display-5 fw-bold text-center mb-5">Technology is used to provide services - ITWEBDREAM
+                    <h1 class="display-5 fw-bold text-center mb-5">Technology is used to provide services - itwebdream
                     </h1>
                 </div>
                 <!-- Introduction -->

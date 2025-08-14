@@ -9,7 +9,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <h1 class="display-5 fw-bold text-center mb-5">Privacy Policy</h1>
+                    <h1 class="display-5 fw-bold text-center mb-5">Privacy Policy - itwebdream</h1>
 
                     <p class="lead text-muted">
                         We extend a warm welcome to <strong>IT Web Dream</strong>, an establishment resolutely

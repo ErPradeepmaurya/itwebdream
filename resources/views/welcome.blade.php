@@ -1,10 +1,11 @@
 @extends('layouts.app')
-@section('title', 'Web Design and Software Development Company')
+@section('title', 'Website designing Company in Lucknow | Web application development Company in India')
 @section('content')
     <section class="integration-banner mt-1">
         <div class="content-container text-dark">
             <h3>Website design and software development provided.</h3>
-            <p>"ITWebDream is a business web design and software development company that helps businesses grow with custom
+            <p>"itwebdream is a business website design and website development company that helps businesses grow with
+                custom
                 websites, scalable software, and digital solutions designed to boost visibility, enhance engagement, and
                 drive results."</p>
             <a href="#technologies" class="btn">View Full Stack</a>

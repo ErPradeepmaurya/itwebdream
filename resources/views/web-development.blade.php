@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Professional Website Design and Development Services')
+@section('title', 'Professional Website Development Services - itwebdream')
 
 
 @section('content')
@@ -9,7 +9,8 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="web-banner text-center">
-                    <h1 class="display-5 fw-bold text-center mb-5">Website Design and development</h1>
+                    <h1 class="display-5 fw-bold text-center mb-5">Professional Website Development Services - itwebdream
+                    </h1>
                 </div>
                 <!-- About Section -->
                 <section class="container">

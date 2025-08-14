@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Top Custom Web & Software Development Services in India')
+@section('title', 'Software Development Company | Custom Business Software Solutions')
 
 
 @section('content')
@@ -9,10 +9,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="web-banner">
-                    <h1 class="display-5 fw-bold text-center mb-5">Design and development of web applications</h1>
+                    <h1 class="display-5 fw-bold text-center mb-5">Software Development Company | Custom Business Software
+                        Solutions - itwebdream</h1>
                 </div>
                 <!-- Introduction -->
-                <p class="lead text-muted mt-3">Design and development of web applications involve creating dynamic,
+                <p class="lead text-muted mt-3">Software Development Company, Custom Business Software Solutions involve
+                    creating dynamic,
                     interactive, and user-friendly digital platforms tailored to meet specific business needs. This
                     process begins with understanding the client’s goals, followed by crafting intuitive user interfaces
                     (UI) and seamless user experiences (UX). Designers focus on aesthetics and usability, while

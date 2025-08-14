@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    <title>@yield('title', 'India’s Best Web Design & Software Development Company')</title>
+    <title>@yield('title', 'Best Web Design & Software Development Company')</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="{{ asset('asset/main/image/favicon1.png') }}">
     <meta name="keywords"
-        content="web design company in India, software development company India, best web development agency, website design India, custom software development, IT services India, top web development firm">
+        content="custom software development Company, Web and application development, Website design and website development, top Web development agencies, Website development company near me">
     <meta name="description"
-        content="India’s best web design and software development company offering custom websites, scalable software, and digital solutions tailored to your business.">
+        content="Hire the best custom software development Company for expert web and application development, website design, and top-rated website development services trusted by leading brands near you.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="{{ asset('asset/main/css/main.css') }}">

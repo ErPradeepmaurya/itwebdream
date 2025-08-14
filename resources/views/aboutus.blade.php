@@ -10,7 +10,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="web-banner">
-                        <h1 class="display-5 fw-bold text-center mb-5">About Us - ITWEBDREAM</h1>
+                        <h1 class="display-5 fw-bold text-center mb-5">About Us - itwebdream</h1>
                     </div>
 
                     <h2 class="h4 fw-bold mt-4">Empowering Businesses with Custom Software Solutions</h2>
