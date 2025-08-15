@@ -1,20 +1,13 @@
-<!-- Navigation -->
 <nav class="navbar navbar-dark nav-main sticky-top mt-2">
     <div class="container d-flex justify-content-between align-items-center">
-        <!-- Logo -->
         <a class="navbar-brand text-white fw-bold" href="{{ route('welcome') }}">
             <img src="{{ asset('asset/main/image/itwebdream-logo2.png') }}" alt="logo" width="180px">
         </a>
-
-        <!-- Center Nav for Desktop -->
-        <!-- Navbar Wrapper -->
         <div class="d-none d-lg-flex justify-content-center flex-grow-1">
             <ul class="navbar-nav flex-row gap-3 text-uppercase nav-menu main-menu">
                 <li class="nav-item">
                     <a class="nav-link fw-bold" href="{{ route('aboutus') }}">About Us</a>
                 </li>
-
-                <!-- Services Dropdown -->
                 <li class="nav-item dropdown position-relative">
                     <a class="nav-link fw-bold dropdown-toggle" href="#" id="servicesDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
@@ -32,35 +25,25 @@
                         <li><a class="dropdown-item text-light" href="{{ route('uiux-design') }}">UI/UX Design</a></li>
                     </ul>
                 </li>
-
                 <li class="nav-item">
                     <a class="nav-link fw-bold" href="{{ route('technology') }}">Technologies</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link fw-bold" href="{{ route('faq') }}">FAQ</a>
                 </li>
-
             </ul>
         </div>
-
-
-        <!-- Right: Login button -->
         <div class="d-none d-lg-block nav-login">
             <a href="{{ route('contact-us') }}">Contact</a>
         </div>
-
-
-        <!-- Offcanvas Toggle Button (Mobile) -->
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav">
             <span class="navbar-toggler-icon"></span>
         </button>
     </div>
 </nav>
 
-<!-- Offcanvas Sidebar for Mobile -->
 <div class="offcanvas offcanvas-end mobile-nav-bg" tabindex="-1" id="mobileNav">
     <div class="offcanvas-header">
-        {{-- <h5 class="offcanvas-title fw-bold">Menu</h5> --}}
         <a class="navbar-brand text-white fw-bold" href="{{ route('welcome') }}">
             <img src="{{ asset('asset/main/image/itwebdream-logo2.png') }}" alt="logo" width="180px">
         </a>
