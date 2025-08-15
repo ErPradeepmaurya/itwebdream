@@ -2,13 +2,48 @@
 <html lang="en">
 
 <head>
-    <title>@yield('title', 'Best Web Design & Software Development Company')</title>
+    <title>@yield('title', 'Top Website and Software Development Company')</title>
     <link rel="canonical" href="{{ $canonical ?? url()->current() }}">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="{{ asset('asset/main/image/favicon1.png') }}">
     <meta name="keywords" content="@yield('meta_keywords', 'custom software development Company, Web and application development, Website design and website development, top Web development agencies, Website development company near me')">
     <meta name="description" content="@yield('meta_description', 'Hire the best custom software development company. expert web & app development, website design, and top-rated services trusted by leading brands near you.')">
+    <meta property="og:title" content="@yield('og_title', 'Top Website and Software Development Company | Web & App Development Experts')">
+    <meta property="og:description" content="@yield('og_description', 'We provide website design, web development, and custom software solutions trusted by top brands.')">
+    <meta property="og:image" content="@yield('og_image', asset('asset/main/image/itwebdream-logo2.png'))">
+    <meta property="og:url" content="@yield('og_url', url()->current())">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="@yield('og_site_name', 'itwebdream')">
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "IT Web Dream",
+        "url": "https://itwebdream.com",
+        "logo": "https://itwebdream.com/asset/main/image/itwebdream-logo2.png",
+        "description": "IT Web Dream is a custom software development agency offering website design, website development, and application development services.",
+        "foundingDate": "2020",
+        "founders": [
+            {
+            "@type": "Person",
+            "name": "Pradeep Maurya"
+            }
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+91-8707579029",
+            "contactType": "Website and Software service provider",
+            "areaServed": "IN",
+            "availableLanguage": ["English", "Hindi"]
+        },
+        "sameAs": [
+            "https://www.facebook.com/itwebdream",
+            "https://twitter.com/itwebdream",
+            "https://www.linkedin.com/company/itwebdream"
+        ]
+        }
+    </script>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('asset/main/css/main.css') }}">
