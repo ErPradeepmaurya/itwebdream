@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Website designing Company in Lucknow | Web application development Company in India')
+@section('title', 'Website Design Lucknow | Web App Development Experts')
 @section('content')
     <section class="integration-banner mt-1">
         <div class="content-container text-dark">
