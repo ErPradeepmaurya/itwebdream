@@ -3,7 +3,7 @@
 @section('content')
     <section class="integration-banner mt-1">
         <div class="content-container text-dark">
-            <h3>Website design and software development provided.</h3>
+            <h1>Website design and software development provided.</h1>
             <p>"itwebdream is a business website design and website development company that helps businesses grow with
                 custom
                 websites, scalable software, and digital solutions designed to boost visibility, enhance engagement, and
@@ -12,30 +12,32 @@
         </div>
         <!-- Floating Tech Icons -->
         <div class="floating-logos">
-            <img src="{{ asset('asset/main/image/laravel.png') }}" class="floating-logo" style="top: 10%; left: 10%;">
-            <img src="{{ asset('asset/main/image/redux.png') }}" class="floating-logo" style="top: 22%; left: 25%;">
+            <img src="{{ asset('asset/main/image/laravel.png') }}" class="floating-logo" alt="laravel-icon"
+                style="top: 10%; left: 10%;">
+            <img src="{{ asset('asset/main/image/redux.png') }}" class="floating-logo" alt="redux-icon"
+                style="top: 22%; left: 25%;">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" class="floating-logo"
-                style="top: 20%; right: 10%;">
+                alt="php-icon" style="top: 20%; right: 10%;">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="floating-logo"
-                style="top: 55%; left: 5%;">
+                alt="sql-icon" style="top: 55%; left: 5%;">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" class="floating-logo"
-                style="bottom: 15%; right: 5%;">
+                alt="mongodb-icon" style="bottom: 15%; right: 5%;">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" class="floating-logo"
-                style="top: 65%; right: 15%;">
+                alt="nodejs-icon" style="top: 65%; right: 15%;">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="floating-logo"
-                style="top: 75%; left: 25%;">
+                alt="react-icon" style="top: 75%; left: 25%;">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="floating-logo"
-                style="top: 60%; left: 15%;">
+                alt="html-icon" style="top: 60%; left: 15%;">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="floating-logo"
-                style="bottom: 20%; right: 30%;">
+                alt="css-icon" style="bottom: 20%; right: 30%;">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                class="floating-logo" style="top: 80%; left: 50%;">
+                class="floating-logo" alt="javascript-icon" style="top: 80%; left: 50%;">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" class="floating-logo"
-                style="top: 15%; right: 30%;">
+                alt="android-icon" style="top: 15%; right: 30%;">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" class="floating-logo"
-                style="top: 15%; left: 50%;">
+                alt="apple-icon" style="top: 15%; left: 50%;">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg"
-                class="floating-logo" style="bottom: 60%; left: 13%;">
+                class="floating-logo" alt="wordpress-icon" style="bottom: 60%; left: 13%;">
         </div>
     </section>
 

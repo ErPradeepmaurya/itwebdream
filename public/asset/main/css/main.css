@@ -127,7 +127,7 @@ section {
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-.content-container h3 {
+.content-container h1 {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1rem;
@@ -224,7 +224,7 @@ section {
 
 /* Responsive */
 @media (max-width: 768px) {
-    .content-container h3 {
+    .content-container h1 {
         font-size: 1.1rem;
     }
 

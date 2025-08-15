@@ -6,7 +6,6 @@ use App\Http\Controllers\Frontend\FreeCommaController;
 
 
 Route::get('/', [MainController::class, 'index'])->name('welcome');
-Route::get('welcome2', [MainController::class, 'index2'])->name('welcome2');
 Route::get('terms-conditions', [MainController::class, 'termsconditions'])->name('terms-conditions');
 Route::get('privacy-policy', [MainController::class, 'privacypolicy'])->name('privacy-policy');
 Route::get('faq', [MainController::class, 'faq'])->name('faq');

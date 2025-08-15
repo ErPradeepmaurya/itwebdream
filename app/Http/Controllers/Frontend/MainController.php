@@ -7,60 +7,70 @@ use Illuminate\Http\Request;
 
 class MainController extends Controller
 {
+    private function renderView($viewName)
+    {
+        $canonical = url()->current(); // Generate canonical URL
+        return view($viewName, compact('canonical'));
+    }
+
     public function index()
     {
-        return view('welcome');
+        return $this->renderView('welcome');
     }
-    public function index2()
-    {
-        return view('welcome2');
-    }
+
     public function termsconditions()
     {
-        return view('terms-conditions');
+        return $this->renderView('terms-conditions');
     }
+
     public function privacypolicy()
     {
-        return view('privacy-policy');
+        return $this->renderView('privacy-policy');
     }
+
     public function faq()
     {
-        return view('faq');
+        return $this->renderView('faq');
     }
+
     public function aboutus()
     {
-        return view('aboutus');
+        return $this->renderView('aboutus');
     }
+
     public function customwebdevelopment()
     {
-        return view('custome-web-development');
+        return $this->renderView('custome-web-development');
     }
+
     public function webdevelopment()
     {
-        return view('web-development');
+        return $this->renderView('web-development');
     }
+
     public function appdevelopment()
     {
-        return view('app-development');
+        return $this->renderView('app-development');
     }
+
     public function uiuxdesign()
     {
-        return view('ui-ux-design');
+        return $this->renderView('ui-ux-design');
     }
 
     public function commingsoon()
     {
-        return view('comming-soon');
+        return $this->renderView('comming-soon');
     }
 
     public function technology()
     {
-        return view('technology');
+        return $this->renderView('technology');
     }
 
     public function contactus()
     {
-        return view('contact-us');
+        return $this->renderView('contact-us');
     }
 
     public function sitemap()
@@ -71,6 +81,6 @@ class MainController extends Controller
 
     public function mpwebdevelopment()
     {
-        return view('mp-web-development');
+        return $this->renderView('mp-web-development');
     }
 }
