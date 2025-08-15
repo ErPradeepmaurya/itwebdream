@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="{{ asset('asset/main/image/favicon1.png') }}">
     <meta name="keywords" content="@yield('meta_keywords', 'custom software development Company, Web and application development, Website design and website development, top Web development agencies, Website development company near me')">
-    <meta name="description" content="@yield('meta_description', 'Hire the best custom software development company for expert web & app development, website design, and top-rated services trusted by leading brands near you.')">
+    <meta name="description" content="@yield('meta_description', 'Hire the best custom software development company. expert web & app development, website design, and top-rated services trusted by leading brands near you.')">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('asset/main/css/main.css') }}">
