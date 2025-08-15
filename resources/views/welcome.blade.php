@@ -74,7 +74,7 @@
                 <div class="col-md-4">
                     {{-- <div class="card-box position-relative p-4"> --}}
                     <div class="glass-card p-4">
-                        <img src="{{ asset('asset/main/image/web-development.jpg') }}" alt="Laptop"
+                        <img src="{{ asset('asset/main/image/web-development.jpg') }}" alt="custome software development"
                             class="img-fluid mb-3 laptop-img rounded-3">
 
                         <h4 class="fw-bold text-dark">Custom Software<br>Development</h4>
@@ -103,7 +103,7 @@
                 <div class="col-md-4">
                     {{-- <div class="card-box position-relative p-4"> --}}
                     <div class="glass-card p-4">
-                        <img src="{{ asset('asset/main/image/app-development.jpg') }}" alt="Laptop"
+                        <img src="{{ asset('asset/main/image/app-development.jpg') }}" alt="mobile app development"
                             class="img-fluid mb-3 laptop-img rounded-3">
 
                         <h4 class="fw-bold text-dark">Mobile App<br>Development</h4>
@@ -120,7 +120,7 @@
                             <li><i class="fas fa-check text-primary me-2"></i> App Store Optimization</li>
                         </ul>
                         <div class="d-flex justify-content-center">
-                            <a href="{{ route('comming-soon') }}"
+                            <a href="{{ route('app-development') }}"
                                 class="btn btn-success fw-bold px-4 py-2 rounded-pill">View More</a>
                         </div>
                     </div>
@@ -130,7 +130,7 @@
                 <div class="col-md-4">
                     {{-- <div class="card-box position-relative p-4 "> --}}
                     <div class="glass-card p-4">
-                        <img src="{{ asset('asset/main/image/seoimage.jpg') }}" alt="Laptop"
+                        <img src="{{ asset('asset/main/image/seoimage.jpg') }}" alt="seo website"
                             class="img-fluid mb-3 laptop-img rounded-3">
 
                         <h4 class="fw-bold text-dark">SEO & Digital<br>Marketing</h4>
