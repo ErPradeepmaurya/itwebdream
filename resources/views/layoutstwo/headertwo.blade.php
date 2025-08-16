@@ -5,7 +5,7 @@
     <title>@yield('title', '')</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="{{ asset('asset/main/image/favicon1.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('asset/main/image/favicon-itwebdream.png') }}">
     <meta name="keywords"
         content="Free Online Comma Separator Tool, Online Comma Separator & Delimiter Tool, Convert Text to Comma Separated List Online, Free Text Delimiter & Separator Converter, Online Comma, Semicolon, Pipe Separator Tool">
     <meta name="description"
