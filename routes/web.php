@@ -18,7 +18,11 @@ Route::get('comming-soon', [MainController::class, 'commingsoon'])->name('commin
 Route::get('technology', [MainController::class, 'technology'])->name('technology');
 Route::get('contact-us', [MainController::class, 'contactus'])->name('contact-us');
 // landing pages 
-Route::get('web-development-dubai', [MainController::class, 'mpwebdevelopment'])->name('mp-web-development');
+Route::get('web-development-mp', [MainController::class, 'mpwebdevelopment'])->name('mp-web-development');
+Route::post('submit-web-development-rajasthan', [MainController::class, 'submit_rajasthan'])->name('submit_rajasthan');
+
+Route::get('urbanclone', [MainController::class, 'urbanclone'])->name('urbanclone');
+
 // tools 
 Route::get('sitemap.xml', [MainController::class, 'sitemap'])->name('sitemap');
 Route::get('online-free-comma-separator-tool', [FreeCommaController::class, 'FreeCommaController'])->name('FreeComma.freecommatool');

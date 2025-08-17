@@ -23,7 +23,7 @@
                     </p>
 
                     <h2 class="fw-bold text-center py-3">Our Mobile App Development Services</h2>
-                    <div class="row g-4">
+                    <div class="row g-1">
                         <div class="col-md-6">
                             <div class="technology-shadow animate-shadow">
                                 <h4><i class="fas fa-check-circle text-primary me-2"></i> Android App Development</h4>
@@ -99,7 +99,7 @@
                 <!-- Industries -->
                 <section class="container py-5">
                     <h2 class="text-center mb-4">Industries We Serve</h2>
-                    <div class="row g-4">
+                    <div class="row g-1">
                         <div class="col-md-4">
                             <div class="technology-shadow animate-shadow">
                                 <h5><i class="fas fa-check-circle text-primary me-2"></i> Healthcare</h5>
@@ -215,7 +215,7 @@
 
 
                 <div class="container" id="technologies">
-                    <div class="row g-4 text-center">
+                    <div class="row g-1 text-center">
                         <div class="col-md-4 col-sm-6">
                             <div class="p-4 border rounded-3 h-100 technology-shadow">
                                 <i class="fas fa-laptop-code tech-icon card border-primary p-2"></i>
@@ -293,7 +293,7 @@
                         </p>
                     </div>
 
-                    <div class="row g-4 text-center">
+                    <div class="row g-1 text-center">
                         <!-- Full Stack -->
                         <div class="col-md-3 col-6">
                             <div class="p-4 border rounded-3 h-100 technology-shadow">

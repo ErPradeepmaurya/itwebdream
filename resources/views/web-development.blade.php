@@ -28,7 +28,7 @@
                     </p>
 
                     <h2 class="mb-4 text-center">Industries We Serve</h2>
-                    <div class="row gy-4">
+                    <div class="row gy-1">
                         <!-- Education -->
                         <div class="col-md-6 mt-2">
                             <div class="technology-shadow animate-shadow">
@@ -137,7 +137,6 @@
                                 </p>
                             </div>
                         </div>
-
                     </div>
 
                     <h2 class="text-center mt-2 mb-2">Built with SEO and Performance in Mind</h2>
@@ -189,7 +188,7 @@
 
 
                 <div class="container" id="technologies">
-                    <div class="row g-4 text-center">
+                    <div class="row g-1 text-center">
                         <div class="col-md-4 col-sm-6">
                             <div class="p-4 border rounded-3 h-100 technology-shadow">
                                 <i class="fas fa-laptop-code tech-icon card border-primary p-2"></i>
@@ -267,7 +266,7 @@
                         </p>
                     </div>
 
-                    <div class="row g-4 text-center">
+                    <div class="row g-1 text-center">
                         <!-- Full Stack -->
                         <div class="col-md-3 col-6">
                             <div class="p-4 border rounded-3 h-100 technology-shadow">

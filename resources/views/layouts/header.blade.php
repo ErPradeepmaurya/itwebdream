@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="{{ asset('asset/main/image/favicon-itwebdream.png') }}">
-    <meta name="keywords" content="@yield('meta_keywords', 'custom software development Company, Web and application development, Website design and website development, top Web development agencies, Website development company near me')">
+    <meta name="keywords" content="@yield('meta_keywords', 'Best Website Development Company In Lucknow, best software company in Lucknow, custom software development Company, Web and application development, Website design and website development, top Web development agencies, Website development company near me')">
     <meta name="description" content="@yield('meta_description', 'Hire the best custom software development company. expert web & app development, website design, and top-rated services trusted by leading brands near you.')">
     <meta property="og:title" content="@yield('og_title', 'Top Website and Software Development Company | Web & App Development Experts')">
     <meta property="og:description" content="@yield('og_description', 'We provide website design, web development, and custom software solutions trusted by top brands.')">
@@ -50,6 +50,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <script>
         (function(w, d, s, l, i) {
             w[l] = w[l] || [];

@@ -168,7 +168,7 @@
                 <p class="lead text-muted">We work with cutting-edge technologies to deliver robust solutions</p>
             </div>
 
-            <div class="row g-4 text-center">
+            <div class="row g-1 text-center">
                 <!-- Full Stack -->
                 <div class="col-md-3 col-6">
                     <div class="p-4 border rounded-3 h-100 technology-shadow animate-shadow">
@@ -258,8 +258,8 @@
             <div class="row g-4">
                 <h5 class="display-6 text-center">Our Expertise</h5>
                 <div class="col-md-6">
-                    <div class="p-4 border rounded bg-white h-100 expertise-shadow">
-                        <ul class="text-start list-unstyled">
+                    <div class="p-2 border rounded bg-white expertise-shadow">
+                        <ul class="text-start list-unstyled mb-0">
                             <li><i class="fas fa-check-circle text-primary me-2"></i> Fintech & Insurance</li>
                             <li><i class="fas fa-check-circle text-primary me-2"></i> Education (Portal, ERP etc)
                             </li>
@@ -269,8 +269,8 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="p-4 border rounded bg-white h-100 expertise-shadow">
-                        <ul class="text-start list-unstyled">
+                    <div class="p-2 border rounded bg-white expertise-shadow">
+                        <ul class="text-start list-unstyled mb-0">
                             <li><i class="fas fa-check-circle text-primary me-2"></i> Media</li>
                             <li><i class="fas fa-check-circle text-primary me-2"></i> Retail & eCommerce</li>
                             <li><i class="fas fa-check-circle text-primary me-2"></i> Logistics & Distribution</li>

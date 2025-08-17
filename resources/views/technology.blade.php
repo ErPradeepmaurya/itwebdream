@@ -38,7 +38,7 @@
                         </p>
                     </div>
 
-                    <div class="row g-4 text-center">
+                    <div class="row g-1 text-center">
                         <!-- Full Stack -->
                         <div class="col-md-3 col-6">
                             <div class="p-4 border rounded-3 h-100 technology-shadow">
