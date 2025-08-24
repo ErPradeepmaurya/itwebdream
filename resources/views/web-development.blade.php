@@ -29,24 +29,11 @@
 
                     <h2 class="mb-4 text-center">Industries We Serve</h2>
                     <div class="row gy-1">
-                        <!-- Education -->
-                        <div class="col-md-6 mt-2">
-                            <div class="technology-shadow animate-shadow">
-                                <h4><i class="fas fa-check text-primary me-2"></i> Education Sector (Schools & Universities)
-                                </h4>
-                                <p>
-                                    Our education-focused web solutions offer robust features such as online application
-                                    systems, student dashboards, faculty directories, course listings, event calendars, and
-                                    integration with leading <strong>LMS (Learning Management Systems)</strong>. We build
-                                    intuitive, content-rich platforms that enhance learning experiences and support academic
-                                    administration.
-                                </p>
-                            </div>
-                        </div>
-
                         <!-- Healthcare -->
-                        <div class="col-md-6 mt-2">
-                            <div class="technology-shadow animate-shadow">
+                        <div class="col-md-4 mt-2">
+                            <div class="technology-shadow animate-shadow text-center h-100">
+                                <img src="{{ asset('asset/main/serviceb/hospital.jpg') }}" alt="hospital Sector"
+                                    class="img-fluid rounded mb-3 h-50">
                                 <h4><i class="fas fa-check text-primary me-2"></i> Healthcare Industry (Hospitals & Clinics)
                                 </h4>
                                 <p>
@@ -61,8 +48,10 @@
                         </div>
 
                         <!-- eCommerce -->
-                        <div class="col-md-6 mt-2">
-                            <div class="technology-shadow animate-shadow">
+                        <div class="col-md-4 mt-2">
+                            <div class="technology-shadow animate-shadow text-center h-100">
+                                <img src="{{ asset('asset/main/serviceb/ecommerce.jpg') }}" alt="Education Sector"
+                                    class="img-fluid rounded mb-3 h-50">
                                 <h4><i class="fas fa-check text-primary me-2"></i> eCommerce Website Development</h4>
                                 <p>
                                     Our expert eCommerce development services cater to both startups and enterprise
@@ -76,8 +65,10 @@
                         </div>
 
                         <!-- CRM -->
-                        <div class="col-md-6 mt-2">
-                            <div class="technology-shadow animate-shadow">
+                        <div class="col-md-4 mt-2">
+                            <div class="technology-shadow animate-shadow text-center h-100">
+                                <img src="{{ asset('asset/main/serviceb/crm.jpg') }}" alt="Education Sector"
+                                    class="img-fluid rounded mb-3 h-50">
                                 <h4><i class="fas fa-check text-primary me-2"></i> Customer Relationship Management (CRM)
                                 </h4>
                                 <p>
@@ -92,8 +83,10 @@
                         </div>
 
                         <!-- LMS -->
-                        <div class="col-md-6 mt-2">
-                            <div class="technology-shadow animate-shadow">
+                        <div class="col-md-4 mt-2">
+                            <div class="technology-shadow animate-shadow text-center h-100">
+                                <img src="{{ asset('asset/main/serviceb/lms2.jpg') }}" alt="Education Sector"
+                                    class="img-fluid rounded mb-3 h-50">
                                 <h4><i class="fas fa-check text-primary me-2"></i> Learning Management Systems (LMS)</h4>
                                 <p>
                                     Whether for academic institutions or corporate training, our LMS development includes
@@ -107,8 +100,10 @@
                         </div>
 
                         <!-- Real Estate -->
-                        <div class="col-md-6 mt-2">
-                            <div class="technology-shadow animate-shadow">
+                        <div class="col-md-4 mt-2">
+                            <div class="technology-shadow animate-shadow text-center h-100">
+                                <img src="{{ asset('asset/main/serviceb/Real-Estate.jpg') }}" alt="Education Sector"
+                                    class="img-fluid rounded mb-3 h-50">
                                 <h4><i class="fas fa-check text-primary me-2"></i> Real Estate Solutions</h4>
                                 <p>
                                     For realtors and property developers, we build feature-rich <strong>real estate
@@ -122,8 +117,10 @@
                         </div>
 
                         <!-- Ticket Booking -->
-                        <div class="col-md-6 mt-2">
-                            <div class="technology-shadow animate-shadow">
+                        <div class="col-md-4 mt-2">
+                            <div class="technology-shadow animate-shadow text-center h-100">
+                                <img src="{{ asset('asset/main/serviceb/ticket-Booking.jpg') }}" alt="Education Sector"
+                                    class="img-fluid rounded mb-3 h-50">
                                 <h4><i class="fas fa-check text-primary me-2"></i> Online Ticket Booking Platforms (Bus,
                                     Events,
                                     Travel)</h4>
@@ -139,7 +136,7 @@
                         </div>
                     </div>
 
-                    <h2 class="text-center mt-2 mb-2">Built with SEO and Performance in Mind</h2>
+                    <h2 class="text-center mt-5 mb-2">Built with SEO and Performance in Mind</h2>
                     <p class="lead text-muted mt-1">
                         Our <strong>website design and development process</strong> integrates the latest SEO practices from
                         the ground up. We focus on:
@@ -177,85 +174,6 @@
                         </div>
                     </div>
                 </section>
-
-                <!-- Call to Action -->
-                <section class="py-5 text-center">
-                    <h3 class="mb-3 text-primary">Ready to Build a Website That Works?</h3>
-                    <p class="mb-4">Connect with us today for a free consultation and let’s design a website that
-                        transforms your digital presence.</p>
-                    <a href="{{ route('contact-us') }}" class="btn btn-success btn-lg">Request a Quote</a>
-                </section>
-
-
-                <div class="container" id="technologies">
-                    <div class="row g-1 text-center">
-                        <div class="col-md-4 col-sm-6">
-                            <div class="p-4 border rounded-3 h-100 technology-shadow">
-                                <i class="fas fa-laptop-code tech-icon card border-primary p-2"></i>
-                                <h5>Front-end Web Development</h5>
-                                <p class="text-muted">Utilize the reusable components and deliver component-driven
-                                    architecture using advanced Frontend technologies like React.js, Angular, and Vue.js.
-                                    IT Web Dream is a web application development company that combines amazing UI designs
-                                    with
-                                    required functionalities effortlessly.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6">
-                            <div class="p-4 border rounded-3 h-100 technology-shadow">
-                                <i class="fas fa-server tech-icon card border-primary p-2"></i>
-                                <h5>Back-end Development</h5>
-                                <p class="text-muted">Seamlessly navigate between multiple features of an application by
-                                    accessing the talented pool of backend web developers who can make your application
-                                    scalable. We offer AWS and Azure services to host the backend services on cloud, and SQL
-                                    and NoSQL databases to store and fetch data reliably using Microservices.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6">
-                            <div class="p-4 border rounded-3 h-100 technology-shadow">
-                                <i class="fas fa-rocket tech-icon card border-primary p-2"></i>
-                                <h5>Progressive Web Apps</h5>
-                                <p class="text-muted">Aligning to the modern needs of app development, we create native web
-                                    apps with enhanced technology features, faster application load times, highly
-                                    interactive visual content and hassle-free navigation between distinct features within
-                                    the application.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6">
-                            <div class="p-4 border rounded-3 h-100 technology-shadow">
-                                <i class="fas fa-shopping-cart tech-icon card border-primary p-2"></i>
-                                <h5>Ecommerce Web App Development</h5>
-                                <p class="text-muted">Customize and build eCommerce Web Apps using Shopify, Magento and
-                                    custom frameworks to amplify business growth and boost online web presence. Our adept
-                                    web developers ensure growth and user engagement by developing agile, secure, &
-                                    user-friendly eCommerce apps.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6">
-                            <div class="p-4 border rounded-3 h-100 technology-shadow">
-                                <i class="fas fa-project-diagram tech-icon card border-primary p-2"></i>
-                                <h5>Custom Web Application Development services</h5>
-                                <p class="text-muted">We help you deliver superior web development services combined with
-                                    expert resources, technical prowess to strengthen overall business strategy. Our
-                                    experience in custom web app development assures compatibility, scalability and
-                                    intuitive user experiences.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6">
-                            <div class="p-4 border rounded-3 h-100 technology-shadow">
-                                <i class="fas fa-mobile-alt tech-icon card border-primary p-2"></i>
-                                <h5>Cross-Platform App development</h5>
-                                <p class="text-muted">Our cross-platform app developers specialize in creating hybrid
-                                    applications using technologies such as Flutter and React Native. We craft
-                                    cost-effective solutions for businesses across various domains and sizes.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
 
                 <div class="container mt-5" id="technologies">

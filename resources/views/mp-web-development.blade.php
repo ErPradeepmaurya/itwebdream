@@ -123,7 +123,7 @@
                             beyond pixels and code. We craft digital experiences aligned to your brand, optimized for SEO,
                             and engineered for conversions. From custom UI/UX and responsive layouts to scalable
                             architecture and analytics, our team delivers enterprise-grade quality on time, every time.</p>
-                        <div class="row g-4 mt-1">
+                        <div class="row g-1 mt-1">
                             <div class="col-md-6 col-lg-3">
                                 <div class="rounded-4 shadow-soft technology-shadow h-100">
                                     <div class="feature-icon bg-light mb-3"><i class="bi bi-brush"></i></div>
@@ -168,15 +168,14 @@
                 <section id="industries" class="py-4">
                     <div class="container">
                         <h2 class="section-title fs-2 h1 text-center">Industry-Focused Website Design and Website
-                            Development in
-                            Rajasthan
+                            Development in Rajasthan
                         </h2>
                         <p class="lead text-muted text-center mt-3">We bring domain-specific features to each build so your
                             business can
                             launch
                             quickly and scale confidently.</p>
 
-                        <div class="row g-4 mt-1">
+                        <div class="row g-1 mt-1">
                             <!-- eCommerce -->
                             <div class="col-md-6 col-lg-4">
                                 <div class="card h-100 shadow-soft technology-shadow p-0">
@@ -324,7 +323,7 @@
                                 <strong>ITWebDream</strong>, you get strategy, design, development, QA, deployment, and
                                 ongoing growth support—under one roof.
                             </p>
-                            <div class="row g-3 mt-1">
+                            <div class="row g-1 mt-1">
                                 <div class="col-sm-6">
                                     <div class="row">
                                         <div class="col-sm-6 mt-1">
@@ -365,8 +364,8 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-sm-6">
-                                    <div class="p-4 bg-white rounded-4 mt-1 h-100 shadow-soft technology-shadow">
-                                        <h5 class="fw-bold lead text-muted">What You’ll Get</h5>
+                                    <div class="p-1 bg-white rounded-4 mt-1 h-100 shadow-soft technology-shadow">
+                                        <h5 class="fw-bold lead text-muted p-3 px-4">What You’ll Get</h5>
                                         <ul class="mb-0 lead text-muted">
                                             <li>Responsive website design and website development</li>
                                             <li>CMS or custom admin as needed</li>

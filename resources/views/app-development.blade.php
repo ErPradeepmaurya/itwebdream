@@ -27,7 +27,8 @@
                         <div class="col-md-6">
                             <div class="technology-shadow animate-shadow">
                                 <h4><i class="fas fa-check-circle text-primary me-2"></i> Android App Development</h4>
-                                <p>We build native Android applications using Kotlin and Java. Our apps are compatible with
+                                <p class="lead text-muted mt-3">We build native Android applications using Kotlin and Java.
+                                    Our apps are compatible with
                                     all
                                     devices and optimized for performance and security.</p>
                             </div>
@@ -35,62 +36,25 @@
                         <div class="col-md-6">
                             <div class="technology-shadow animate-shadow">
                                 <h4><i class="fas fa-check-circle text-primary me-2"></i> iOS App Development</h4>
-                                <p>Our iOS developers use Swift and Objective-C to create sleek and powerful apps that align
+                                <p class="lead text-muted mt-3">Our iOS developers use Swift and Objective-C to create sleek
+                                    and powerful apps that align
                                     with Apple’s UI/UX standards and App Store guidelines.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="technology-shadow animate-shadow">
                                 <h4><i class="fas fa-check-circle text-primary me-2"></i> Cross-Platform Apps</h4>
-                                <p>We develop apps using Flutter and React Native to reduce time and cost while delivering a
+                                <p class="lead text-muted mt-3">We develop apps using Flutter and React Native to reduce
+                                    time and cost while delivering a
                                     seamless experience across both Android and iOS.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="technology-shadow animate-shadow">
                                 <h4><i class="fas fa-check-circle text-primary me-2"></i> Enterprise Mobile Solutions</h4>
-                                <p>We create secure, scalable apps for business operations, CRM, inventory, and analytics to
+                                <p class="lead text-muted mt-3">We create secure, scalable apps for business operations,
+                                    CRM, inventory, and analytics to
                                     empower your workforce and automate workflows.</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Development Process -->
-                <section class="py-2">
-                    <div class="container">
-                        <h2 class="text-center mb-5">Our Development Process</h2>
-                        <div class="row">
-                            <div class="col-md-6 mt-1">
-                                <div class="technology-shadow animate-shadow">
-                                    <h5>1. Discovery & Planning</h5>
-                                    <p>We identify goals, analyze competitors, define user personas, and plan app
-                                        architecture
-                                        and technology stack.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mt-1">
-                                <div class="technology-shadow animate-shadow">
-                                    <h5>2. UI/UX Design</h5>
-                                    <p>We create wireframes, prototypes, and pixel-perfect interfaces focusing on intuitive
-                                        navigation and user engagement.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mt-1">
-                                <div class="technology-shadow animate-shadow">
-                                    <h5>3. Development & Testing</h5>
-                                    <p>Our developers build scalable apps using clean code while QA engineers conduct
-                                        thorough
-                                        testing for performance, usability, and security.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mt-1">
-                                <div class="technology-shadow animate-shadow">
-                                    <h5>4. Deployment & Support</h5>
-                                    <p>We launch the app on Google Play and App Store, provide post-launch monitoring,
-                                        updates,
-                                        and technical support.</p>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -102,39 +66,57 @@
                     <div class="row g-1">
                         <div class="col-md-4">
                             <div class="technology-shadow animate-shadow">
+                                <img src="{{ asset('asset/main/serviceb/helthcare_app.jpg') }}" alt="hospital Sector"
+                                    class="img-fluid rounded mb-3 h-50">
                                 <h5><i class="fas fa-check-circle text-primary me-2"></i> Healthcare</h5>
-                                <p>Telemedicine, patient portals, remote monitoring, and fitness apps.</p>
+                                <p class="lead text-muted mt-3">Telemedicine, patient portals, remote monitoring, and
+                                    fitness apps.</p>
                             </div>
                         </div>
 
                         <div class="col-md-4">
                             <div class="technology-shadow animate-shadow">
+                                <img src="{{ asset('asset/main/serviceb/lms2.jpg') }}" alt="learning management system"
+                                    class="img-fluid rounded mb-3 h-50">
                                 <h5><i class="fas fa-check-circle text-primary me-2"></i> Education & eLearning</h5>
-                                <p>eLearning platforms, mobile LMS, live classes, and skill development apps.</p>
+                                <p class="lead text-muted mt-3">eLearning platforms, mobile LMS, live classes, and skill
+                                    development apps.</p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="technology-shadow animate-shadow">
+                                <img src="{{ asset('asset/main/serviceb/ecommere_app.jpg') }}" alt="ecommerce"
+                                    class="img-fluid rounded mb-3 h-50">
                                 <h5><i class="fas fa-check-circle text-primary me-2"></i> eCommerce</h5>
-                                <p>Shopping apps, customer loyalty apps, order tracking, and mobile payments.</p>
+                                <p class="lead text-muted mt-3">Shopping apps, customer loyalty apps, order tracking, and
+                                    mobile payments.</p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="technology-shadow animate-shadow">
+                                <img src="{{ asset('asset/main/serviceb/realestate_app.jpg') }}" alt="hospital Sector"
+                                    class="img-fluid rounded mb-3 h-50">
                                 <h5><i class="fas fa-check-circle text-primary me-2"></i> Real Estate</h5>
-                                <p>Property listing apps with maps, agent chat, and lead management.</p>
+                                <p class="lead text-muted mt-3">Property listing apps with maps, agent chat, and lead
+                                    management.</p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="technology-shadow animate-shadow">
+                                <img src="{{ asset('asset/main/serviceb/booking_app.jpg') }}" alt="hospital Sector"
+                                    class="img-fluid rounded mb-3 h-50">
                                 <h5><i class="fas fa-check-circle text-primary me-2"></i> Travel & Booking</h5>
-                                <p>Bus, hotel, or flight ticket booking apps with real-time availability.</p>
+                                <p class="lead text-muted mt-3">Bus, hotel, or flight ticket booking apps with real-time
+                                    availability.</p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="technology-shadow animate-shadow">
+                                <img src="{{ asset('asset/main/serviceb/Logistics_app.jpg') }}" alt="hospital Sector"
+                                    class="img-fluid rounded mb-3 h-50">
                                 <h5><i class="fas fa-check-circle text-primary me-2"></i> Logistics</h5>
-                                <p>Fleet tracking, delivery scheduling, and route optimization apps.</p>
+                                <p class="lead text-muted mt-3">Fleet tracking, delivery scheduling, and route optimization
+                                    apps.</p>
                             </div>
                         </div>
                     </div>
@@ -145,16 +127,21 @@
                     <div class="container">
                         <h2 class="text-center mb-4">Why Invest in a Mobile App?</h2>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i> Increased
+                            <li class="list-group-item lead text-muted"><i
+                                    class="fas fa-check-circle text-primary me-2"></i> Increased
                                 engagement through push notifications</li>
-                            <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i> Streamlined
+                            <li class="list-group-item lead text-muted"><i
+                                    class="fas fa-check-circle text-primary me-2"></i> Streamlined
                                 user experience with mobile-specific features</li>
-                            <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i> Boosted brand
+                            <li class="list-group-item lead text-muted"><i
+                                    class="fas fa-check-circle text-primary me-2"></i> Boosted brand
                                 presence with an app icon on every screen</li>
-                            <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i> Higher
+                            <li class="list-group-item lead text-muted"><i
+                                    class="fas fa-check-circle text-primary me-2"></i> Higher
                                 conversion and retention rates compared to mobile websites
                             </li>
-                            <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i> Offline
+                            <li class="list-group-item lead text-muted"><i
+                                    class="fas fa-check-circle text-primary me-2"></i> Offline
                                 functionality and native device integration</li>
                         </ul>
                     </div>
@@ -167,25 +154,26 @@
                         <div class="col-md-6 mt-1">
                             <div class="technology-shadow animate-shadow">
                                 <h6><i class="fas fa-check-circle text-primary me-2"></i> Frontend & Native SDKs</h6>
-                                <p>Android (Java, Kotlin), iOS (Swift, Objective-C), Flutter, React Native</p>
+                                <p class="lead text-muted">Android (Java, Kotlin), iOS (Swift, Objective-C), Flutter, React
+                                    Native</p>
                             </div>
                         </div>
                         <div class="col-md-6 mt-1">
                             <div class="technology-shadow animate-shadow">
                                 <h6><i class="fas fa-check-circle text-primary me-2"></i> Backend & APIs</h6>
-                                <p>Node.js, Laravel, Django, Firebase, GraphQL, REST APIs</p>
+                                <p class="lead text-muted">Node.js, Laravel, Django, Firebase, GraphQL, REST APIs</p>
                             </div>
                         </div>
                         <div class="col-md-6 mt-1">
                             <div class="technology-shadow animate-shadow">
                                 <h6><i class="fas fa-check-circle text-primary me-2"></i> Database</h6>
-                                <p>MySQL, PostgreSQL, MongoDB, SQLite, Realm</p>
+                                <p class="lead text-muted">MySQL, PostgreSQL, MongoDB, SQLite, Realm</p>
                             </div>
                         </div>
                         <div class="col-md-6 mt-1">
                             <div class="technology-shadow animate-shadow">
                                 <h6><i class="fas fa-check-circle text-primary me-2"></i> Cloud & Hosting</h6>
-                                <p>AWS, Google Cloud, Azure, DigitalOcean</p>
+                                <p class="lead text-muted">AWS, Google Cloud, Azure, DigitalOcean</p>
                             </div>
                         </div>
                     </div>
@@ -195,7 +183,7 @@
                 <section class="py-5">
                     <div class="container">
                         <h2 class="text-center mb-4">Why Choose Us?</h2>
-                        <ul>
+                        <ul class="lead text-muted">
                             <li>Proven experience in Android & iOS app development</li>
                             <li>Agile development process for faster time-to-market</li>
                             <li>UI/UX-first approach to design and usability</li>
@@ -204,85 +192,6 @@
                         </ul>
                     </div>
                 </section>
-
-                <!-- Call to Action -->
-                <section class="text-center py-5">
-                    <h3 class="mb-3">Let’s Bring Your App Idea to Life</h3>
-                    <p>Contact us today for a free consultation. We’ll help you design, develop, and launch your custom
-                        Android or iOS app that truly makes an impact.</p>
-                    <a href="{{ route('contact-us') }}" class="btn btn-success btn-lg">Request a Free Quote</a>
-                </section>
-
-
-                <div class="container" id="technologies">
-                    <div class="row g-1 text-center">
-                        <div class="col-md-4 col-sm-6">
-                            <div class="p-4 border rounded-3 h-100 technology-shadow">
-                                <i class="fas fa-laptop-code tech-icon card border-primary p-2"></i>
-                                <h5>Front-end Web Development</h5>
-                                <p class="text-muted">Utilize the reusable components and deliver component-driven
-                                    architecture using advanced Frontend technologies like React.js, Angular, and Vue.js.
-                                    IT Web Dream is a web application development company that combines amazing UI designs
-                                    with
-                                    required functionalities effortlessly.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6">
-                            <div class="p-4 border rounded-3 h-100 technology-shadow">
-                                <i class="fas fa-server tech-icon card border-primary p-2"></i>
-                                <h5>Back-end Development</h5>
-                                <p class="text-muted">Seamlessly navigate between multiple features of an application by
-                                    accessing the talented pool of backend web developers who can make your application
-                                    scalable. We offer AWS and Azure services to host the backend services on cloud, and SQL
-                                    and NoSQL databases to store and fetch data reliably using Microservices.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6">
-                            <div class="p-4 border rounded-3 h-100 technology-shadow">
-                                <i class="fas fa-rocket tech-icon card border-primary p-2"></i>
-                                <h5>Progressive Web Apps</h5>
-                                <p class="text-muted">Aligning to the modern needs of app development, we create native web
-                                    apps with enhanced technology features, faster application load times, highly
-                                    interactive visual content and hassle-free navigation between distinct features within
-                                    the application.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6">
-                            <div class="p-4 border rounded-3 h-100 technology-shadow">
-                                <i class="fas fa-shopping-cart tech-icon card border-primary p-2"></i>
-                                <h5>Ecommerce Web App Development</h5>
-                                <p class="text-muted">Customize and build eCommerce Web Apps using Shopify, Magento and
-                                    custom frameworks to amplify business growth and boost online web presence. Our adept
-                                    web developers ensure growth and user engagement by developing agile, secure, &
-                                    user-friendly eCommerce apps.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6">
-                            <div class="p-4 border rounded-3 h-100 technology-shadow">
-                                <i class="fas fa-project-diagram tech-icon card border-primary p-2"></i>
-                                <h5>Custom Web Application Development services</h5>
-                                <p class="text-muted">We help you deliver superior web development services combined with
-                                    expert resources, technical prowess to strengthen overall business strategy. Our
-                                    experience in custom web app development assures compatibility, scalability and
-                                    intuitive user experiences.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6">
-                            <div class="p-4 border rounded-3 h-100 technology-shadow">
-                                <i class="fas fa-mobile-alt tech-icon card border-primary p-2"></i>
-                                <h5>Cross-Platform App development</h5>
-                                <p class="text-muted">Our cross-platform app developers specialize in creating hybrid
-                                    applications using technologies such as Flutter and React Native. We craft
-                                    cost-effective solutions for businesses across various domains and sizes.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
 
                 <div class="container mt-5" id="technologies">
