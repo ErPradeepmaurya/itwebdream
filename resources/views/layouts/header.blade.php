@@ -7,8 +7,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="{{ asset('asset/main/image/favicon-itwebdream.png') }}">
-    <meta name="keywords" content="@yield('meta_keywords', 'Best Website Development Company In Lucknow, best software company in Lucknow, custom software development Company, Web and application development, Website design and website development, top Web development agencies, Website development company near me')">
-    <meta name="description" content="@yield('meta_description', 'Hire the best custom software development company. expert web & app development, website design, and top-rated services trusted by leading brands near you.')">
+    <meta name="keywords" content="@yield(
+        'meta_keywords',
+        'best digital marketing company, best website development company, mobile app development company, software development company in india,
+                    website design company near me,
+                    best software development company in india,
+                    best software development company in lucknow,
+                    website design services in india,
+                    ecommerce website designing company in india,
+                    ecommerce website development company in india.'
+    )">
+    <meta name="description" content="@yield('meta_description', 'Looking for top app development and web design services in India? Get expert mobile apps, ecommerce stores, responsive websites, and custom solutions from leading developers. Affordable, scalable, and secure services tailored for your business growth.')">
     <meta property="og:title" content="@yield('og_title', 'Top Website and Software Development Company | Web & App Development Experts')">
     <meta property="og:description" content="@yield('og_description', 'We provide website design, web development, and custom software solutions trusted by top brands.')">
     <meta property="og:image" content="@yield('og_image', asset('asset/main/image/itwebdream-logo2.png'))">
