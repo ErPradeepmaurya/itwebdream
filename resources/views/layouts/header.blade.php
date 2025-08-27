@@ -10,12 +10,12 @@
     <meta name="keywords" content="@yield(
         'meta_keywords',
         'best digital marketing company, best website development company, mobile app development company, software development company in india,
-                    website design company near me,
-                    best software development company in india,
-                    best software development company in lucknow,
-                    website design services in india,
-                    ecommerce website designing company in india,
-                    ecommerce website development company in india.'
+                        website design company near me,
+                        best software development company in india,
+                        best software development company in lucknow,
+                        website design services in india,
+                        ecommerce website designing company in india,
+                        ecommerce website development company in india.'
     )">
     <meta name="description" content="@yield('meta_description', 'Looking for top app development and web design services in India? Get expert mobile apps, ecommerce stores, responsive websites, and custom solutions from leading developers. Affordable, scalable, and secure services tailored for your business growth.')">
     <meta property="og:title" content="@yield('og_title', 'Top Website and Software Development Company | Web & App Development Experts')">
@@ -86,6 +86,18 @@
         gtag('js', new Date());
 
         gtag('config', 'G-D93W2W3VN8');
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GN30SQ4QR6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-GN30SQ4QR6');
     </script>
 </head>
 
